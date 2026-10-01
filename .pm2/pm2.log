@@ -405,3 +405,9 @@
 2026-09-30T07:22:45: PM2 log: pid=515927 msg=process tree killed (1 pids)
 2026-09-30T07:22:45: PM2 log: App [store-astro:0] starting in -fork mode-
 2026-09-30T07:22:45: PM2 log: App [store-astro:0] online
+2026-10-01T01:54:18: PM2 log: App [store-astro:0] exited with code [0] via signal [SIGKILL]
+2026-10-01T01:54:18: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-01T01:54:18: PM2 log: App [store-astro:0] online
+2026-10-01T01:57:31: PM2 log: App [store-astro:0] exited with code [0] via signal [SIGKILL]
+2026-10-01T01:57:31: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-01T01:57:31: PM2 log: App [store-astro:0] online
