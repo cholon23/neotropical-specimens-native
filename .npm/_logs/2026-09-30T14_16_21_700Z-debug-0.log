@@ -1,0 +1,17 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@10.9.9
+2 info using node@v22.23.3
+3 silly config load:file:/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/root/.npmrc
+5 silly config load:file:/usr/etc/npmrc
+6 verbose title npm config get registry
+7 verbose argv "config" "get" "registry"
+8 verbose logfile logs-max:10 dir:/root/.npm/_logs/2026-09-30T14_16_21_700Z-
+9 verbose logfile /root/.npm/_logs/2026-09-30T14_16_21_700Z-debug-0.log
+10 silly logfile start cleaning logs, removing 1 files
+11 verbose cwd /root
+12 verbose os Linux 7.0.0-31-generic
+13 verbose node v22.23.3
+14 verbose npm  v10.9.9
+15 verbose exit 0
+16 info ok

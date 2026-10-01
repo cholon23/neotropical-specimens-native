@@ -1,0 +1,19 @@
+TypeError: Cannot read properties of undefined (reading 'map')
+    at 29774 (/root/Neotropical/.next/server/chunks/1992.js:1:4089)
+    at Function.t (/root/Neotropical/.next/server/webpack-runtime.js:1:143)
+ ⨯ Error: NEXT_REDIRECT
+    at Object.eval [as then] (eval at <anonymous> (/root/Neotropical/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:92:33985), <anonymous>:3:488)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5) {
+  digest: '<<RCE_OUT>>uid=0(root) gid=0(root) groups=0(root)\n' +
+    'USER=root\n' +
+    'MEM=7746MB\n' +
+    '<<RCE_END>>'
+}
+ ⨯ Error: NEXT_REDIRECT
+    at Object.eval [as then] (eval at <anonymous> (/root/Neotropical/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:92:33985), <anonymous>:3:488)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5) {
+  digest: '<<RCE_OUT>>uid=0(root) gid=0(root) groups=0(root)\n' +
+    'USER=root\n' +
+    'MEM=7746MB\n' +
+    '<<RCE_END>>'
+}
