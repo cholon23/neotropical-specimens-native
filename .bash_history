@@ -1,500 +1,500 @@
-</head>
-<body id="main-body" class="bg-[#060a09] text-gray-100 font-sans antialiased min-h-screen overflow-x-hidden relative">
-
-    <div id="ambient-glow" class="absolute top-0 right-1/4 w-[600px] h-[600px] bg-cyan-500/10 rounded-full blur-[140px] pointer-events-none transition-all duration-1000 z-0"></div>
-
-    <header class="border-b border-gray-900/60 bg-[#060a09]/80 backdrop-blur-md sticky top-0 z-50">
-        <div class="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
-            <div class="flex items-center space-x-4">
-                <div class="flex space-x-1 text-[10px] font-mono text-gray-400">
-                    <span class="px-1.5 py-0.5 bg-emerald-950/30 border border-emerald-900 rounded">SERFOR</span>
-                    <span class="px-1.5 py-0.5 bg-emerald-950/30 border border-emerald-900 rounded">SENASA</span>
-                </div>
-                <div class="flex items-center space-x-2">
-                    <div class="w-7 h-7 rounded-full bg-emerald-500/20 flex items-center justify-center border border-emerald-500/40 text-emerald-400 font-bold text-xs">N</div>
-                    <div>
-                        <span class="font-bold text-xs tracking-wide block text-white">Neotropical Specimens</span>
-                        <span class="text-[9px] text-gray-500 tracking-wider uppercase block">Native Collection</span>
-                    </div>
-                </div>
-            </div>
-            <nav class="hidden lg:flex items-center space-x-6 text-xs text-gray-400 font-medium">
-                <a href="#catalogo" class="hover:text-emerald-400 transition">Catálogo</a>
-                <a href="#secos" class="hover:text-emerald-400 transition">Especímenes secos biológicos</a>
-                <a href="#mayorista" class="hover:text-emerald-400 transition">Mayorista (100+ und)</a>
-                <a href="#contacto" class="hover:text-emerald-400 transition">Contacto</a>
-            </nav>
-            <div class="flex items-center space-x-3">
-                <span class="text-[10px] px-2 py-0.5 bg-gray-900 border border-gray-800 rounded text-gray-400 font-mono">PEN</span>
-                <button class="bg-emerald-500 hover:bg-emerald-400 text-black text-xs font-semibold px-4 py-1.5 rounded-full transition shadow-md">Explorar</button>
-            </div>
-        </div>
-    </header>
-
-    <main class="max-w-7xl mx-auto px-4 py-12 relative z-10">
-        <div class="grid grid-cols-1 lg:grid-cols-4 gap-8 items-start">
-            <div class="lg:col-span-3 space-y-8">
-                <div class="relative w-full min-h-[380px] flex flex-col justify-between">
-                    <div class="space-y-6 max-w-xl relative z-10">
-                        <div class="inline-flex items-center space-x-2 text-[11px] px-3 py-1 rounded-full bg-emerald-950/30 border border-emerald-900/50 text-emerald-400 font-mono">
-                            <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
-                            <span>Catálogo dinámico en tiempo real &bull; 2 en línea ahora &bull; Perú <span class="text-gray-500">[EN]</span></span>
-                        </div>
-                        <h1 class="text-4xl sm:text-5xl font-extrabold tracking-tight text-white leading-tight">
-                            Especímenes <span id="text-glow-target" class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500 transition-all duration-700">neotropicales</span> <br/>de colección
-                        </h1>
-                        <p class="text-gray-400 text-sm leading-relaxed">
-                            Lepidópteros y artrópodos de la selva sudamericana, documentados con fotografía WebP de alta fidelidad y modelos 3D interactivos. Inventario vivo, sincronizado al instante.
-                        </p>
-                        <div class="flex items-center space-x-3 pt-2">
-                            <a href="#catalogo" class="bg-emerald-500 hover:bg-emerald-400 text-black font-bold text-xs px-5 py-2.5 rounded-xl transition flex items-center space-x-2 shadow-md shadow-emerald-950/50">
-                                <span>Explorar el catálogo</span>
-                                <span>&darr;</span>
-                            </a>
-                            <a href="#mayorista" class="bg-[#121917] hover:bg-[#1a2421] border border-gray-800 text-gray-300 text-xs font-semibold px-5 py-2.5 rounded-xl transition">Precios mayoristas</a>
-                        </div>
-                    </div>
-                    <div class="absolute top-0 right-0 w-1/2 h-full pointer-events-none hidden md:flex flex-col items-center justify-center z-0">
-                        <img id="main-interactive-butterfly" src="/images/Morpho_rhetenor_helena.png" alt="Espécimen" class="max-w-xs w-full object-contain transition-all duration-700 ease-in-out transform filter drop-shadow-[0_20px_40px_rgba(6,182,212,0.25)]" />
-                        <div id="butterfly-label" class="mt-4 px-3 py-1 bg-black/70 border border-gray-800 rounded-lg text-[11px] font-mono text-cyan-400 tracking-wider transition-all duration-700">Morpho rhetenor helena</div>
-                    </div>
-                </div>
-
-                <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 pt-4 relative z-10">
-                    <div class="p-4 rounded-xl bg-[#0f1513]/60 border border-gray-950 flex flex-col justify-between h-24">
-                        <div class="w-5 h-5 rounded bg-emerald-500/10 flex items-center justify-center text-emerald-400 text-xs">🧬</div>
-                        <div><span class="text-lg font-bold text-white block">+1,200</span><span class="text-[10px] text-gray-500 font-mono">Especímenes</span></div>
-                    </div>
-                    <div class="p-4 rounded-xl bg-[#0f1513]/60 border border-gray-950 flex flex-col justify-between h-24">
-                        <div class="w-5 h-5 rounded bg-emerald-500/10 flex items-center justify-center text-emerald-400 text-xs">🌿</div>
-                        <div><span class="text-lg font-bold text-white block">45</span><span class="text-[10px] text-gray-500 font-mono">Familias</span></div>
-                    </div>
-                    <div class="p-4 rounded-xl bg-[#0f1513]/60 border border-gray-950 flex flex-col justify-between h-24">
-                        <div class="w-5 h-5 rounded bg-emerald-500/10 flex items-center justify-center text-emerald-400 text-xs">🗺️</div>
-                        <div><span class="text-lg font-bold text-white block">12</span><span class="text-[10px] text-gray-500 font-mono">Regiones</span></div>
-                    </div>
-                    <div class="p-4 rounded-xl bg-[#0f1513]/60 border border-gray-950 flex flex-col justify-between h-24">
-                        <div class="w-5 h-5 rounded bg-emerald-500/10 flex items-center justify-center text-emerald-400 text-xs">✨</div>
-                        <div><span class="text-lg font-bold text-white block">Perú</span><span class="text-[10px] text-gray-500 font-mono">Países de origen</span></div>
-                    </div>
-                </div>
-            </div>
-
-            <div id="secos" class="space-y-4 lg:col-span-1">
-                <span class="text-[10px] font-mono tracking-widest text-amber-500 uppercase block font-semibold">Especímenes secos biológicos</span>
-                <div class="space-y-3">
-                    <div class="rounded-xl overflow-hidden border border-gray-900 bg-black aspect-video"><img src="/images/muestra_biologica.png" class="w-full h-full object-cover" /></div>
-                    <div class="rounded-xl overflow-hidden border border-gray-900 bg-[#0a0f0d] p-1 aspect-video relative flex items-center justify-center">
-                        <div class="absolute top-2 right-2 bg-black/60 backdrop-blur px-2 py-0.5 rounded text-[8px] font-mono text-gray-400 border border-gray-800">BST / BATS / AMPHIBAM</div>
-                        <img src="/images/exoesqueletos_investigacion.png" class="w-full h-full object-contain rounded-lg" />
-                    </div>
-                    <div class="rounded-xl overflow-hidden border border-gray-900 bg-black aspect-video"><img src="/images/habitat_natural.png" class="w-full h-full object-cover" /></div>
-                </div>
-            </div>
-        </div>
-
-        <section id="catalogo" class="mt-16 border-t border-gray-900/60 pt-12 space-y-6">
-            <div class="space-y-1">
-                <span class="text-[10px] tracking-widest text-emerald-500 uppercase font-mono block">Catálogo</span>
-                <h2 class="text-2xl font-bold text-white tracking-tight">Categorías</h2>
-                <p class="text-gray-500 text-xs">Butterflies Diurne &bull; Moths &bull; Beetles &bull; Insects &bull; Rare &bull; Cynam &bull; Hybrid &bull; Freak. Elige una; después las familias como siempre.</p>
-            </div>
-            <div class="flex flex-wrap gap-2 pb-4 border-b border-gray-900/30">
-
-
-clear
-cat << 'EOF' > src/pages/index.astro
----
-const categorias = [
-    "Butterflies Diurne", "Moths", "Beetles", "Insects", 
-    "Rare", "Cynam", "Hybrid", "Freak"
-];
-
-const itemsMultimedia = [
-    { titulo: "Neotropical Native Intro", tipo: "VIDEO", img: "images/muestra_biologica.png" },
-    { titulo: "Colección Lepidoptera", tipo: "VIDEO", img: "images/exoesqueletos_investigacion.png" },
-    { titulo: "Colección Coleoptera", tipo: "VIDEO", img: "images/habitat_natural.png" },
-    { titulo: "Hábitat Natural Amazonía", tipo: "VIDEO", img: "images/Morpho_rhetenor_helena.png" },
-    { titulo: "Cuadro Exhibición Deluxe", tipo: "VIDEO", img: "images/muestra_biologica.png" }
-];
----
-<html lang="es" class="dark">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Neotropical Specimens - Native Collection</title>
-    <script src="https://tailwindcss.com"></script>
-</head>
-<body id="main-body" class="bg-[#060a09] text-gray-100 font-sans antialiased min-h-screen overflow-x-hidden relative">
-
-    <div id="ambient-glow" class="absolute top-0 right-1/4 w-[600px] h-[600px] bg-cyan-500/10 rounded-full blur-[140px] pointer-events-none transition-all duration-1000 z-0"></div>
-
-    <header class="border-b border-gray-900/60 bg-[#060a09]/80 backdrop-blur-md sticky top-0 z-50">
-        <div class="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
-            <div class="flex items-center space-x-4">
-                <div class="flex space-x-1 text-[10px] font-mono text-gray-400">
-                    <span class="px-1.5 py-0.5 bg-emerald-950/30 border border-emerald-900 rounded">SERFOR</span>
-                    <span class="px-1.5 py-0.5 bg-emerald-950/30 border border-emerald-900 rounded">SENASA</span>
-                </div>
-                <div class="flex items-center space-x-2">
-                    <div class="w-7 h-7 rounded-full bg-emerald-500/20 flex items-center justify-center border border-emerald-500/40 text-emerald-400 font-bold text-xs">N</div>
-                    <div>
-                        <span class="font-bold text-xs tracking-wide block text-white">Neotropical Specimens</span>
-                        <span class="text-[9px] text-gray-500 tracking-wider uppercase block">Native Collection</span>
-                    </div>
-                </div>
-            </div>
-            <nav class="hidden lg:flex items-center space-x-6 text-xs text-gray-400 font-medium">
-                <a href="#catalogo" class="hover:text-emerald-400 transition">Catálogo</a>
-                <a href="#secos" class="hover:text-emerald-400 transition">Especímenes secos biológicos</a>
-                <a href="#mayorista" class="hover:text-emerald-400 transition">Mayorista (100+ und)</a>
-                <a href="#contacto" class="hover:text-emerald-400 transition">Contacto</a>
-            </nav>
-            <div class="flex items-center space-x-3">
-                <span class="text-[10px] px-2 py-0.5 bg-gray-900 border border-gray-800 rounded text-gray-400 font-mono">PEN</span>
-                <button class="bg-emerald-500 hover:bg-emerald-400 text-black text-xs font-semibold px-4 py-1.5 rounded-full transition shadow-md">Explorar</button>
-            </div>
-        </div>
-    </header>
-
-    <main class="max-w-7xl mx-auto px-4 py-12 relative z-10">
-        <div class="grid grid-cols-1 lg:grid-cols-4 gap-8 items-start">
-            <div class="lg:col-span-3 space-y-8">
-                <div class="relative w-full min-h-[380px] flex flex-col justify-between">
-                    <div class="space-y-6 max-w-xl relative z-10">
-                        <div class="inline-flex items-center space-x-2 text-[11px] px-3 py-1 rounded-full bg-emerald-950/30 border border-emerald-900/50 text-emerald-400 font-mono">
-                            <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
-                            <span>Catálogo dinámico en tiempo real &bull; 2 en línea ahora &bull; Perú <span class="text-gray-500">[EN]</span></span>
-                        </div>
-                        <h1 class="text-4xl sm:text-5xl font-extrabold tracking-tight text-white leading-tight">
-                            Especímenes <span id="text-glow-target" class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500 transition-all duration-700">neotropicales</span> <br/>de colección
-                        </h1>
-                        <p class="text-gray-400 text-sm leading-relaxed">
-                            Lepidópteros y artrópodos de la selva sudamericana, documentados con fotografía WebP de alta fidelidad y modelos 3D interactivos. Inventario vivo, sincronizado al instante.
-                        </p>
-                        <div class="flex items-center space-x-3 pt-2">
-                            <a href="#catalogo" class="bg-emerald-500 hover:bg-emerald-400 text-black font-bold text-xs px-5 py-2.5 rounded-xl transition flex items-center space-x-2 shadow-md shadow-emerald-950/50">
-                                <span>Explorar el catálogo</span>
-                                <span>&darr;</span>
-                            </a>
-                            <a href="#mayorista" class="bg-[#121917] hover:bg-[#1a2421] border border-gray-800 text-gray-300 text-xs font-semibold px-5 py-2.5 rounded-xl transition">Precios mayoristas</a>
-                        </div>
-                    </div>
-                    <div class="absolute top-0 right-0 w-1/2 h-full pointer-events-none hidden md:flex flex-col items-center justify-center z-0">
-                        <img id="main-interactive-butterfly" src="/images/Morpho_rhetenor_helena.png" alt="Espécimen" class="max-w-xs w-full object-contain transition-all duration-700 ease-in-out transform filter drop-shadow-[0_20px_40px_rgba(6,182,212,0.25)]" />
-                        <div id="butterfly-label" class="mt-4 px-3 py-1 bg-black/70 border border-gray-800 rounded-lg text-[11px] font-mono text-cyan-400 tracking-wider transition-all duration-700">Morpho rhetenor helena</div>
-                    </div>
-                </div>
-
-                <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 pt-4 relative z-10">
-                    <div class="p-4 rounded-xl bg-[#0f1513]/60 border border-gray-950 flex flex-col justify-between h-24">
-                        <div class="w-5 h-5 rounded bg-emerald-500/10 flex items-center justify-center text-emerald-400 text-xs">🧬</div>
-                        <div><span class="text-lg font-bold text-white block">+1,200</span><span class="text-[10px] text-gray-500 font-mono">Especímenes</span></div>
-                    </div>
-                    <div class="p-4 rounded-xl bg-[#0f1513]/60 border border-gray-950 flex flex-col justify-between h-24">
-                        <div class="w-5 h-5 rounded bg-emerald-500/10 flex items-center justify-center text-emerald-400 text-xs">🌿</div>
-                        <div><span class="text-lg font-bold text-white block">45</span><span class="text-[10px] text-gray-500 font-mono">Familias</span></div>
-                    </div>
-                    <div class="p-4 rounded-xl bg-[#0f1513]/60 border border-gray-950 flex flex-col justify-between h-24">
-                        <div class="w-5 h-5 rounded bg-emerald-500/10 flex items-center justify-center text-emerald-400 text-xs">🗺️</div>
-                        <div><span class="text-lg font-bold text-white block">12</span><span class="text-[10px] text-gray-500 font-mono">Regiones</span></div>
-                    </div>
-                    <div class="p-4 rounded-xl bg-[#0f1513]/60 border border-gray-950 flex flex-col justify-between h-24">
-                        <div class="w-5 h-5 rounded bg-emerald-500/10 flex items-center justify-center text-emerald-400 text-xs">✨</div>
-                        <div><span class="text-lg font-bold text-white block">Perú</span><span class="text-[10px] text-gray-500 font-mono">Países de origen</span></div>
-                    </div>
-                </div>
-            </div>
-
-            <div id="secos" class="space-y-4 lg:col-span-1">
-                <span class="text-[10px] font-mono tracking-widest text-amber-500 uppercase block font-semibold">Especímenes secos biológicos</span>
-                <div class="space-y-3">
-                    <div class="rounded-xl overflow-hidden border border-gray-900 bg-black aspect-video"><img src="/images/muestra_biologica.png" class="w-full h-full object-cover" /></div>
-                    <div class="rounded-xl overflow-hidden border border-gray-900 bg-[#0a0f0d] p-1 aspect-video relative flex items-center justify-center">
-                        <div class="absolute top-2 right-2 bg-black/60 backdrop-blur px-2 py-0.5 rounded text-[8px] font-mono text-gray-400 border border-gray-800">BST / BATS / AMPHIBAM</div>
-                        <img src="/images/exoesqueletos_investigacion.png" class="w-full h-full object-contain rounded-lg" />
-                    </div>
-                    <div class="rounded-xl overflow-hidden border border-gray-900 bg-black aspect-video"><img src="/images/habitat_natural.png" class="w-full h-full object-cover" /></div>
-                </div>
-            </div>
-        </div>
-
-        <section id="catalogo" class="mt-16 border-t border-gray-900/60 pt-12 space-y-6">
-            <div class="space-y-1">
-                <span class="text-[10px] tracking-widest text-emerald-500 uppercase font-mono block">Catálogo</span>
-                <h2 class="text-2xl font-bold text-white tracking-tight">Categorías</h2>
-                <p class="text-gray-500 text-xs">Butterflies Diurne &bull; Moths &bull; Beetles &bull; Insects &bull; Rare &bull; Cynam &bull; Hybrid &bull; Freak. Elige una; después las familias como siempre.</p>
-            </div>
-            <div class="flex flex-wrap gap-2 pb-4 border-b border-gray-900/30">
-
-
-npm run dev
-cd "Neotropical specimens"
-npm run dev
-npm run dev
-cd "Neotropical specimens"
-npm run dev -- --host
-cd "Neotropical specimens"
-npx astro dev --host 0.0.0.0
-ls -la
-mv package-lock.json node_modules Neotropical/ 2>/dev/null
-git status
-git log -n 3 --oneline
-git init
-git add .
-git add .
-git commit -m "first commit"
-git remote add origin https://github.com
-git push -u origin main
-git remote remove origin
-git remote add origin https://github.com
-git push -u origin master
-cd Neotropical
-git init
-git add .
-git commit -m "Landing page interactiva de especímenes neotropicales"
-git remote add origin https://github.com
-git remote add origin https://github.com
-git push -u origin master
-git remote remove origin
-git remote add origin https://github.com
-git push -u origin master
-git config --global user.email "tu_correo_de_github@example.com"
-git config --global user.name "cholon23"
-cd ~
-mkdir catalogo-oficial
-cd catalogo-oficial
-git clone https://github.com .
-npm install
+npm run build
+pm2 restart all
+# 1. Ver qué puerto está escuchando PM2 o Node
+pm2 logs store-astro --lines 20
+cd ~/Neotropical-specimens
+# 1. Detenemos los procesos actuales en PM2
+pm2 delete all
+# 2. Iniciamos store-astro correctamente con PM2 pasando el host y el puerto 4321
+pm2 start npm --name "store-astro" -- run start -- --host 0.0.0.0 --port 4321
+# 3. Guardamos la configuración de PM2 para que no se apague si reinicia el servidor
+pm2 save
+cd ~/Neotropical-specimens
+# 1. Limpiamos cachés y carpetas de compilación
+rm -rf .astro dist node_modules/.vite
+# 2. Reconstruimos el proyecto para que lea los archivos actualizados
+npm run build
+# 3. Reiniciamos el proceso en PM2
+pm2 restart store-astro1
+# 1. Reiniciamos el proceso correcto
+pm2 restart store-astro
+# 2. Si quieres ver que esté corriendo fino y sin errores:
+pm2 logs store-astro --lines 10 
+nano src/pages/catalogos/[rubro]/index.astro
 cd Neotropical-specimens
-npm install
-ls
-npm init -y
-npm install astro @astrojs/tailwind tailwindcss
-npm run dev
-node -e "const fs=require('fs'); const p=JSON.parse(fs.readFileSync('package.json')); p.scripts={dev:'astro dev'}; fs.writeFileSync('package.json', JSON.stringify(p,null,2));"
-npm run dev
-npm run dev
-npx kill-port 4321 4322
-mkdir -p src/pages
-mv index.astro src/pages/
-mkdir -p public/imagenes
-mkdir -p public/imagenes
-find . -name "index.astro"
-find . -name "index.astro"
-find . -name "index.astro"
-find . -name "index.astro"
-npm run dev
-fuser -k 4321/tcp 4322/tech 2>/dev/null || fuser -k 4321/tcp
-cat << 'EOF' > src/pages/index.astro
+pm2 restart store-astro
+cat src/pages/catalogos/[rubro]/index.astro
+# 1. Detenemos PM2 un momento
+pm2 stop store-astro
+# 2. Borramos los cachés internos de compilación de Astro y Vite
+rm -rf .astro node_modules/.vite dist
+# 3. Iniciamos el servidor de nuevo limpio con PM2
+pm2 restart store-astro
+clear
+nano src/pages/catalogos/[rubro]/index.astro
+pm2 restart store-astro
+root@ubuntu-4gb-hel1-1:~/Neotropical-specimens# pm2 restart store-astro
+Use --update-env to update environment variables
+[PM2] Applying action restartProcessId on app [store-astro](ids: [ 0 ])
+[PM2] [store-astro](0) ✓
+┌────┬────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name           │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 0  │ store-astro    │ default     │ N/A     │ fork    │ 642831   │ 0s     │ 3    │ online    │ 0%       │ 15.0mb   │ root     │ disabled │
+└────┴────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+host metrics | cpu: 0.8% | ram usage: 17.7% | eth0: ⇓ 0.001mb/s ⇑ 0.002mb/s | disk: ⇓ 0.001mb/s ⇑ 0.053mb/s / 78.14%
+root@ubuntu-4gb-hel1-1:~/Neotropical-specimens# 
+cd ~/Neotropical-specimens
+# 1. Verificamos el estado actual de Git y los cambios recientes
+git status
+# 2. Vemos los últimos commits de ayer para recuperar el código exacto de los zócalos y [id].astro
+git log -n 5 --oneline
+# 1. Ver qué archivos existen dentro de la carpeta de catálogos
+find src/pages/catalogos -type f
+# 2. Ver el contenido actual de git diff por si hay cambios guardados sin confirmar
+git diff
+w
+npm run build
+pm2 restart store-astro
+cd ~/Neotropical-specimens
+git reflog
+nano src/pages/catalogos/[rubro]/[region]/[categoria]/[familia]/[id].astro
+nano src/pages/catalogos/[rubro]/[region]/[categoria]/[familia]/[id].astro
+npm run build
+pm2 restart store-astro
 ---
-const categorias = [
-    "Butterflies Diurne", "Moths", "Beetles", "Insects", 
-    "Rare", "Cynam", "Hybrid", "Freak"
-];
----
-<html lang="es" class="dark">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Neotropical Specimens - Native Collection</title>
-    <script src="https://tailwindcss.com"></script>
-</head>
-<body id="main-body" class="bg-[#060a09] text-gray-100 font-sans antialiased min-h-screen overflow-x-hidden relative">
-    <div id="ambient-glow" class="absolute top-0 right-1/4 w-[600px] h-[600px] bg-cyan-500/10 rounded-full blur-[140px] pointer-events-none transition-all duration-1000 z-0"></div>
-    <header class="border-b border-gray-900/60 bg-[#060a09]/80 backdrop-blur-md sticky top-0 z-50">
-        <div class="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
-            <div class="flex items-center space-x-4">
-                <div class="flex space-x-1 text-[10px] font-mono text-gray-400"><span class="px-1.5 py-0.5 bg-emerald-950/30 border border-emerald-900 rounded">SERFOR</span><span class="px-1.5 py-0.5 bg-emerald-950/30 border border-emerald-900 rounded">SENASA</span></div>
-                <div class="flex items-center space-x-2">
-                    <img src="/imagenes/logo_house_insects.png" alt="Sello" class="w-8 h-8 rounded-full border border-gray-800 object-cover" />
-                    <div><span class="font-bold text-xs tracking-wide block text-white">Neotropical Specimens</span><span class="text-[9px] text-gray-500 tracking-wider uppercase block">Native Collection</span></div>
-                </div>
-            </div>
-            <nav class="hidden lg:flex items-center space-x-6 text-xs text-gray-400 font-medium">
-                <a href="#catalogo" class="hover:text-emerald-400 transition">Catálogo</a>
-                <a href="#secos" class="hover:text-emerald-400 transition">Especímenes secos biológicos</a>
-                <a href="#mayorista" class="hover:text-emerald-400 transition">Mayorista (100+ und)</a>
-            </nav>
+export function getStaticPaths() {
+  return [
+    { params: { rubro: 'especimenes-neotropicales', region: 'neotropical' } },;     { params: { rubro: 'especimenes-neotropicales', region: 'nearctic' } },;     { params: { rubro: 'especimenes-neotropicales', region: 'afrotropical' } },;     { params: { rubro: 'especimenes-neotropicales', region: 'australasian-oriental' } },;     { params: { rubro: 'especimenes-neotropicales', region: 'holarctic' } },;     { params: { rubro: 'osteologia-exoesqueletos', region: 'neotropical' } },;     { params: { rubro: 'plantas-botanicas-forestales', region: 'neotropical' } };   ]; };  const { rubro, region } = Astro.params; const categorias = [;   {     id: 'butterflies-diurnas',;     numero: '1.',;     nombre: 'Butterflies (Lepidoptera)',;     badge: '12 Familias / Subfamilias Diurnas',;     familias: 'Nymphalidae, Morphidae, Papilionidae, Brassolidae, Danaidae, Heliconitdae, Ithomiidae, Hesperiidae, Lycaenidae, Pieridae, Riodinidae y Satyridae.',;     imagen: '/imagenes/neotropical_region.jpg';   },;   {     id: 'moths-nocturnas',;     numero: '2.',;     nombre: 'Moths (Lepidoptera)',;     badge: '13 Familias Científicas Nocturnas',;     familias: 'Arctiidae, Saturniidae, Sphingidae, Noctuidae, Geometridae, Uraniidae, Hepialidae, Tortricidae, Drepanidae, Alucitidae, Crambidae, Notodontidae y Limacodidae.',;     imagen: '/imagenes/afrotropical_region.jpg';   },;   {     id: 'beetles-coleoptera',;     numero: '3.',;     nombre: 'Beetles (Coleoptera)',;     badge: '13 Familias Principales de Coleoptera',;     familias: 'Buprestidae, Cerambycidae, Cetonidae, Chrysomelidae, Cicindelidae, Curculionidae, Dynastidae, Elateridae, Euchiridae, Rutelidae, Lucanidae, Scarabaeidae y Trictenotomidae en calidad A1.',;     imagen: '/imagenes/australasian_region.jpg';   },;   {     id: 'insects-arthropods',;     numero: '4.',;     nombre: 'Insects / Arthropods',;     badge: '6 Órdenes y Grupos Principales',;     familias: 'Mantidae, Phasmatidae, Blattodea, Cicadidae, Venomous Arachnids y Orthoptera.',;     imagen: '/imagenes/nearctic_region.jpg';   },;   {     id: 'butterflies-especiales',;     numero: '5.',;     nombre: 'Butterflies Especiales',;     badge: '5 Formas de Colección Institucional',;     familias: 'Gynandromorphs, Aberrations, Hybrids, Freaks / Abnormalities y Seasonal Forms.',;     imagen: '/imagenes/holarctic_region.jpg';   }; ]; ---;  <html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <title>Central & South America (Neotropical) - Catálogo Oficial</title>
+  </head>
+  <body class="bg-[#0b0f17] text-white min-h-screen font-sans flex flex-col justify-between selection:bg-emerald-500 selection:text-black">
+    
+    <main class="max-w-7xl mx-auto px-6 py-12 w-full">
+      <header class="mb-12">
+        <div class="flex items-center gap-2 text-xs font-mono text-gray-400 mb-6">
+          <a href="/catalogos" class="hover:text-emerald-400 transition-colors">Inicio</a>
+          <span>/</span>
+          <a href={`/catalogos/${rubro}`} class="hover:text-emerald-400 transition-colors">Regiones</a>
+          <span>/</span>
+          <span class="text-emerald-400 capitalize">Central & South America ({region})</span>
         </div>
-    </header>
-    <main class="max-w-7xl mx-auto px-4 py-12 relative z-10">
-        <div class="grid grid-cols-1 lg:grid-cols-4 gap-8 items-start">
-            <div class="lg:col-span-3 space-y-8">
-                <div class="relative w-full min-h-[380px] flex flex-col justify-between">
-                    <div class="space-y-6 max-w-xl relative z-10">
-                        <div class="inline-flex items-center space-x-2 text-[11px] px-3 py-1 rounded-full bg-emerald-950/30 border border-emerald-900/50 text-emerald-400 font-mono"><span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span><span>Catálogo dinámico &bull; Perú</span></div>
-                        <h1 class="text-4xl sm:text-5xl font-extrabold tracking-tight text-white leading-tight">Especímenes <span id="text-glow-target" class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500 transition-all duration-700">neotropicales</span> <br/>de colección</h1>
-                        <p class="text-gray-400 text-sm leading-relaxed">Lepidópteros y artrópodos de la selva sudamericana, documentados con fotografía WebP de alta fidelidad.</p>
-                    </div>
-                    <div class="absolute top-0 right-0 w-1/2 h-full pointer-events-none hidden md:flex flex-col items-center justify-center z-0">
-                        <img id="main-interactive-butterfly" src="/imagenes/Morpho rethenor  helena.png" alt="Espécimen" class="max-w-xs w-full object-contain transition-all duration-700" />
-                        <div id="butterfly-label" class="mt-4 px-3 py-1 bg-black/70 border border-gray-800 rounded-lg text-[11px] font-mono text-cyan-400 uppercase">Morpho rhetenor helena</div>
-                    </div>
+        <a href={`/catalogos/${rubro}`} class="inline-flex items-center gap-2 bg-[#131b2e] border border-emerald-500/20 hover:border-emerald-500/60 px-4 py-2 rounded-xl text-xs font-mono text-emerald-400 transition-all mb-8 shadow-sm">
+          &larr; Volver a Regiones
+        </a>
+        <h1 class="text-4xl font-light tracking-tight uppercase mb-3 text-gray-100 font-mono">Central & South America (Neotropical)</h1>
+        <p class="text-gray-400 text-sm max-w-3xl font-sans">
+          Catálogo completo de especímenes organizado en sus 5 categorías científicas oficiales, con trazabilidad CITES/SERFOR y precios Retail / Wholesale.
+        </p>
+      </header>
+      < Grid de las 5 Categorías Oficiales con zócalos en verde esmeralda -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {categorias.map((cat) => (
+          <div class="bg-[#131b2e] border border-emerald-500/20 rounded-2xl overflow-hidden flex flex-col justify-between shadow-2xl hover:border-emerald-500/60 transition-all duration-300 group">
+            <div>
+              <div class="h-48 overflow-hidden relative">
+                <img src={cat.imagen} alt={cat.nombre} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+                <div class="absolute inset-0 bg-gradient-to-t from-[#131b2e] via-transparent to-transparent opacity-60"></div>
+              </div>
+              <div class="p-6">
+                <div class="inline-block bg-[#0b0f17] border border-emerald-500/40 text-emerald-300 text-[11px] font-mono px-3 py-1 rounded-lg mb-4 shadow-inner">
+                  &bull; {cat.badge}
                 </div>
-                <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 pt-4 relative z-10">
-                    <div class="p-4 rounded-xl bg-[#0f1513]/60 border border-gray-950 flex flex-col justify-between h-24"><div><span class="text-lg font-bold text-white block">+1,200</span><span class="text-[10px] text-gray-500 font-mono">Especímenes</span></div></div>
-                    <div class="p-4 rounded-xl bg-[#0f1513]/60 border border-gray-950 flex flex-col justify-between h-24"><div><span class="text-lg font-bold text-white block">45</span><span class="text-[10px] text-gray-500 font-mono">Familias</span></div></div>
-                    <div class="p-4 rounded-xl bg-[#0f1513]/60 border border-gray-950 flex flex-col justify-between h-24"><div><span class="text-lg font-bold text-white block">12</span><span class="text-[10px] text-gray-500 font-mono">Regiones</span></div></div>
-                    <div class="p-4 rounded-xl bg-[#0f1513]/60 border border-gray-950 flex flex-col justify-between h-24"><div><span class="text-lg font-bold text-white block">Perú</span><span class="text-[10px] text-gray-500 font-mono">Origen</span></div></div>
-                </div>
+                <h2 class="text-xl font-medium text-white tracking-wide mb-3 font-mono">
+                  {cat.numero} {cat.nombre}
+                </h2>
+                <p class="text-xs text-gray-400 leading-relaxed font-sans">
+                  {cat.familias}
+                </p>
+              </div>
             </div>
-            <div id="secos" class="lg:col-span-1 pt-6 overflow-hidden h-[540px] relative">
-                <span class="text-[10px] font-mono tracking-widest text-amber-500 uppercase block font-semibold mb-4">Rubros Oficiales</span>
-                <div class="relative h-[480px] overflow-hidden rounded-xl">
-                    <div id="vertical-scroller" class="absolute w-full flex flex-col space-y-4 transition-transform duration-1000 ease-in-out">
-                        <div class="relative rounded-xl border border-gray-900 bg-black aspect-video flex flex-col justify-end p-2 overflow-hidden shadow-lg w-full shrink-0">
-                            <img src="/imagenes/logo_house_insects.png" class="absolute inset-0 w-full h-full object-contain p-2" />
-                        </div>
-                        <div class="relative rounded-xl border border-gray-900 bg-[#0a0f0d] aspect-video flex flex-col justify-end p-2 overflow-hidden shadow-lg w-full shrink-0">
-                            <img src="/imagenes/exoesqueletos_investigacion.png" class="absolute inset-0 w-full h-full object-cover" />
-                        </div>
-                        <div class="relative rounded-xl border border-gray-900 bg-black aspect-video flex flex-col justify-end p-2 overflow-hidden shadow-lg w-full shrink-0">
-                            <img src="/imagenes/habitat_natural.png" class="absolute inset-0 w-full h-full object-cover" />
-                        </div>
-                    </div>
-                </div>
+            
+            < Zócalo Inferior / Botón Esmeralda -->
+            <div class="p-6 pt-0">
+              <a 
+                href={`/catalogos/${rubro}/${region}/${cat.id}`}
+                class="block w-full text-center py-3.5 px-4 bg-gradient-to-r from-emerald-600 to-cyan-600 hover:from-emerald-500 hover:to-cyan-500 text-black font-bold text-xs tracking-widest uppercase rounded-xl transition-all shadow-lg font-mono"
+              >
+                Ingresar a Categoría &rarr;
+              </a>
             </div>
-        </div>
-        <section id="catalogo" class="mt-16 border-t border-gray-900/60 pt-12 space-y-6">
-            <h2 class="text-2xl font-bold text-white">Categorías</h2>
-            <div class="flex flex-wrap gap-2">
-                {categorias.map((cat) => <button class="px-4 py-2 text-xs bg-[#0f1412] border border-gray-900 rounded-xl text-gray-300">{cat}</button>)}
-            </div>
-        </section>
+          </div>
+        ))}
+      </div>
     </main>
-    <script is:inline>
-        const productosVisor = [
-            { name: "Morpho rhetenor helena", img: "/imagenes/Morpho rethenor  helena.png", color: "rgba(6, 182, 212, 0.15)", gradient: "from-cyan-400 to-blue-500", labelColor: "#22d3ee" },
-            { name: "Chrysophora chrysochlora", img: "/imagenes/chrysophora chrycholra.png", color: "rgba(16, 185, 129, 0.20)", gradient: "from-emerald-400 to-teal-400", labelColor: "#34d399" },
-            { name: "Caligo eurilochus livius", img: "/imagenes/Caligo eurilochus livius .png", color: "rgba(139, 92, 246, 0.12)", gradient: "from-purple-400 to-amber-600", labelColor: "#a78bfa" }
-        ];
-        let currentIdx = 0; let stepVertical = 0;
-        window.addEventListener('load', () => {
-            const mainImg = document.getElementById('main-interactive-butterfly');
-            const mainLabel = document.getElementById('butterfly-label');
-            const ambientGlow = document.getElementById('ambient-glow');
-            const textTarget = document.getElementById('text-glow-target');
-            const scroller = document.getElementById('vertical-scroller');
-            setInterval(() => {
-                currentIdx = (currentIdx + 1) % productosVisor.length;
-                const specimen = productosVisor[currentIdx];
-                if (mainImg && mainLabel && ambientGlow && textTarget) {
-                    mainImg.style.opacity = '0';
-                    setTimeout(() => {
-                        mainImg.setAttribute('src', specimen.img);
-                        mainLabel.textContent = specimen.name;
-                        mainLabel.style.color = specimen.labelColor;
-                        ambientGlow.style.backgroundColor = specimen.color;
-                        textTarget.className = "text-transparent bg-clip-text bg-gradient-to-r " + specimen.gradient;
-                        mainImg.style.opacity = '1';
-                    }, 350);
-                }
-                stepVertical = (stepVertical + 1) % 3;
-                if (scroller) {
-                    if (stepVertical === 0) scroller.style.transform = "translateY(0px)";
-                    else if (stepVertical === 1) scroller.style.transform = "translateY(-162px)";
-                    else if (stepVertical === 2) scroller.style.transform = "translateY(-324px)";
-                }
-            }, 5000);
-        });
-    </script>
-</body>
+    < Pie de Página Institucional -->
+    <footer class="w-full border-t border-white/10 bg-[#05070a] py-6 text-center text-xs text-gray-500 font-mono mt-16">
+      <div class="max-w-7xl mx-auto px-6 flex flex-col sm:flex-row justify-between items-center gap-4">
+        <span>Inventario Científico y Trazabilidad CITES / SERFOR / SENASA</span>
+        <span>Perú — Neotropical Specimens Native</span>
+      </div>
+    </footer>
+  </body>
 </html>
-EOF
-
-cp *.png public/imagenes/ 2>/dev/null || cp Neotropical-specimens/*.png public/imagenes/ 2>/dev/null
-npm run dev
-npm run dev
-echo "node_modules/" > .gitignore
-echo "node_modules/" > .gitignore
-git add .
-git commit -m "Catálogo biológico interactivo completo con animaciones en puerto oficial"
-git push -u origin master
-git remote remove origin
-git remote add origin https://github.com/cholon23/Neotropical-specimens.git
-git remote add origin https://github.com/cholon23/Neotropical-specimens.git
-git push -u origin master
-git push -u origin master
-git push -u origin master
-git remote remove origin
-git remote remove origin
-git remote add origin https://TU_TOKEN_AQUÍ@://github.com
-git remote remove origin
-git remote add origin https://github.com
-git push -u origin master
-git remote remove origin
-git remote add origin https://github.com
-git push -u origin master
-git remote remove origin
-git remote add origin https://github.com
-git push -u origin master
-git remote remove origin
-git remote add origin https://github.com
-git push -u origin master
-git config --global --unset credential.helper
-git remote set-url origin https://github.com
-git push -u origin master
-git remote remove origin
-git remote add origin https://github.com
-git push -u origin master
+nano src/pages/catalogos/[rubro]/[region]/index.astro
+npm run build
+pm2 restart store-astro
+nano src/pages/catalogos/[rubro]/[region]/index.astro
+npm run build
+pm2 restart store-astro
+cd ~/Neotropical-specimens
+nano src/pages/catalogos/[rubro]/[region]/[categoria]/[familia]/[id].astro
+npm run build
+pm2 restart store-astro
+cd ~/Neotropical-specimens
+nano src/pages/catalogos/[rubro]/[region]/[categoria]/[familia]/[id].astro
+npm run build
+pm2 restart store-astro
+cd ~/Neotropical-specimens
+nano src/pages/catalogos/[rubro]/[region]/[categoria]/[familia]/[id].astro
+npm run build
+pm2 restart store-astro
+cd ~/Neotropical-specimens
+nano src/pages/catalogos/[rubro]/[region]/[categoria]/[familia]/[id].astro
+npm run build
+pm2 restart store-astro
+cd ~/Neotropical-specimens
+nano src/pages/catalogos/[rubro]/[region]/[categoria]/[familia]/[id].astro
+cd ~/Neotropical-specimens
+nano src/pages/catalogos/[rubro]/[region]/[categoria]/[familia]/[id].astro
+cd ~/Neotropical-specimens
+nano src/pages/catalogos/[rubro]/[region]/[categoria]/[familia]/[id].astro
+npm run build
+pm2 restart store-astro
+nano src/pages/catalogos/[rubro]/[region]/[categoria]/[familia]/[id].astro
+npm run build
+pm2 restart store-astro
+cd ~/Neotropical-specimens
+nano astro.config.mjs
+nano src/pages/catalogos/[rubro]/[region]/[categoria]/[familia]/[id].astro
+npm run build
+pm2 restart store-astro
+nano astro.config.mjs
+cd ~/Neotropical-specimens
+nano "src/pages/catalogos/[...slug].astro"
+npm run build
+pm2 restart store-astro
+cd ~/Neotropical-specimens
+nano src/pages/catalogos/[...slug].astro
+npm run build
+pm2 restart store-astro
+cd ~/Neotropical-specimens
+rm src/pages/catalogos/[rubro]/[region]/[categoria]/[familia]/[id].astro
+npm run build
+pm2 restart store-astro
+cd ~/Neotropical-specimens
 git status
-git log -n 3 --oneline
-git remote -v
-cd Neotropical-specimens
+cd ~/Neotropical-specimens
+# 1. Descartar cambios en los archivos modificados y traer de vuelta el diseño original
+git restore astro.config.mjs src/pages/catalogos/[rubro]/[region]/index.astro
+# 2. Restaurar el archivo de detalle original que eliminamos por error
+git checkout HEAD -- src/pages/catalogos/[rubro]/[region]/[categoria]/[familia]/[id].astro
+# 3. Borrar los archivos nuevos que causaron el desorden
+rm -f src/pages/catalogos/[...slug].astro
+rm -rf src/pages/catalogos/[rubro]/index.astro
+# 4. Recompilar limpio y reiniciar PM2
+npm run build
+pm2 restart store-astro
+cd ~/Neotropical-specimens
+# 1. Descartar cambios en los archivos modificados y traer de vuelta el diseño original
+git restore astro.config.mjs src/pages/catalogos/[rubro]/[region]/index.astro
+# 2. Restaurar el archivo de detalle original que eliminamos por error
+git checkout HEAD -- src/pages/catalogos/[rubro]/[region]/[categoria]/[familia]/[id].astro
+# 3. Borrar los archivos nuevos que causaron el desorden
+rm -f src/pages/catalogos/[...slug].astro
+rm -rf src/pages/catalogos/[rubro]/index.astro
+# 4. Recompilar limpio y reiniciar PM2
+npm run build
+pm2 restart store-astro
+cd ~/Neotropical-specimens
+nano src/pages/catalogos/[rubro]/[region]/[categoria]/[familia]/[id].astro
+rm -f src/pages/catalogos/[...slug].astro
+npm run build
+pm2 restart store-astro
+cd ~/Neotropical-specimens
+npm install @astrojs/node
+cd ~/Neotropical-specimens
+npm install @astrojs/node@7.6.9 --save
+cd ~/Neotropical-specimens
+npm install @astrojs/node@^7.0.0 --save
+cd ~/Neotropical-specimens
+find dist -name "*.mjs" -o -name "*.js"
+nano astro.config.mjs
+npm run build
+find dist -name "*.mjs" -o -name "*.js"
+pm2 delete store-astro
+pm2 start node --name "store-astro" -- dist/server/entry.mjs
+pm2 save
+cd ~/Neotropical-specimens
+nano astro.config.mjs
+pm2 delete store-astro
+HOST=0.0.0.0 PORT=4321 pm2 start node --name "store-astro" -- dist/server/entry.mjs
+pm2 save
+ufw allow 4321/tcp
+ufw allow 80/tcp
+ufw allow 443/tcp
+pm2 logs store-astro --lines 30
+pm2 status
+cd ~/Neotropical-specimens
 git status
-cd Neotropical-specimens
+cd ~/Neotropical-specimens
+npx astro add tailwind -y
+nano astro.config.mjs
+nano src/pages/index.astro
+cd ~/Neotropical-specimens
+npm run build
+pm2 delete store-astro
+HOST=0.0.0.0 PORT=4321 pm2 start node --name "store-astro" -- dist/server/entry.mjs
+pm2 save
+cd ~/Neotropical-specimens
+git checkout src/pages/index.astro
+cd ~/Neotropical-specimens
+git checkout src/pages/index.astro
+nano src/pages/index.astro
+nano src/pages/index.astro
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Neotropical Specimens Native</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+cd ~/Neotropical-specimens
+nano src/pages/index.astro
+npm run build
+pm2 delete store-astro
+HOST=0.0.0.0 PORT=4321 pm2 start node --name "store-astro" -- dist/server/entry.mjs
+pm2 save
+cd ~/Neotropical-specimens
+nano src/pages/index.astro
+npm run build
+pm2 restart store-astro
+cd ~/Neotropical-specimens
+nano src/pages/index.astro
+export const prerender = false;
+cd ~/Neotropical-specimens
+nano src/pages/index.astro
+npm run build
+pm2 delete store-astro
+HOST=0.0.0.0 PORT=4321 pm2 start node --name "store-astro" -- dist/server/entry.mjs
+pm2 save
+nano src/pages/index.astro
+npm run build
+pm2 delete store-astro
+HOST=0.0.0.0 PORT=4321 pm2 start node --name "store-astro" -- dist/server/entry.mjs
+pm2 save
+cd ~/Neotropical-specimens
+git checkout src/pages/index.astro
+git checkout astro.config.mjs
+cd ~/Neotropical-specimens
+git checkout src/pages/index.astro
+git checkout astro.config.mjs
+nano astro.config.mjs
+npm run build
+pm2 delete store-astro
+pm2 start npx --name "store-astro" -- astro preview --host 0.0.0.0 --port 4321
+pm2 save
+nano astro.config.mjs
+npm run build
+pm2 delete store-astro
+pm2 start npx --name "store-astro" -- astro preview --host 0.0.0.0 --port 4321
+pm2 save
+cd ~/Neotropical-specimens
+npm install @astrojs/tailwind tailwindcss --save
+nano astro.config.mjs
+npm run build
+pm2 delete store-astro
+pm2 start npx --name "store-astro" -- astro preview --host 0.0.0.0 --port 4321
+pm2 save
+cd ~/Neotropical-specimens
+nano src/styles/global.css
+---
+import '../styles/global.css';
+---
+cd ~/Neotropical-specimens
+nano src/pages/index.astro
+cd ~/Neotropical-specimens
+nano src/pages/index.astro
+nano src/pages/index.astro
+npm run build
+pm2 delete store-astro
+pm2 start npx --name "store-astro" -- astro preview --host 0.0.0.0 --port 4321
+pm2 save
+cd ~/Neotropical-specimens
+git checkout src/pages/index.astro
+npm run build
+pm2 delete store-astro
+pm2 start npx --name "store-astro" -- astro preview --host 0.0.0.0 --port 4321
+pm2 save
+cd ~/Neotropical-specimens
+find src/pages -type f
+cat src/pages/catalogos/\[rubro\]/\[region\]/\[categoria\]/\[familia\].astro
+nano src/pages/catalogos/\[rubro\]/\[region\]/\[categoria\]/\[familia\].astro
+cd ~/Neotropical-specimens
+nano src/pages/catalogos/\[rubro\]/\[region\]/\[categoria\]/\[familia\].astro
+npm run build
+pm2 delete store-astro
+pm2 start npx --name "store-astro" -- astro preview --host 0.0.0.0 --port 4321
+pm2 save
+cd ~/Neotropical-specimens
+grep -rn "catalogos" src/pages/index.astro
+cd ~/Neotropical-specimens
+head -n 30 src/pages/catalogos.astro
+cd ~/Neotropical-specimens
+nano src/pages/catalogos/\[rubro\]/\[region\]/\[categoria\]/\[familia\].astro
+npm run build
+pm2 delete store-astro
+pm2 start npx --name "store-astro" -- astro preview --host 0.0.0.0 --port 4321
+pm2 save
+cd ~/Neotropical-specimens
+nano src/pages/index.astro
+npm run build
+pm2 delete store-astro
+pm2 start npx --name "store-astro" -- astro preview --host 0.0.0.0 --port 4321
+pm2 save
+cd ~/Neotropical-specimens
+cat src/pages/catalogos/\[rubro\]/\[region\]/\[categoria\]/\[familia\]/\[id\].astro
+nano src/pages/catalogos/\[rubro\]/\[region\]/\[categoria\]/\[familia\]/\[id\].astro
+npm run build
+pm2 delete store-astro
+pm2 start npx --name "store-astro" -- astro preview --host 0.0.0.0 --port 4321
+pm2 save
+cd ~/Neotropical-specimens
+nano src/pages/catalogos/\[rubro\]/\[region\]/\[categoria\]/\[familia\]/\[id\].astro
+npm run build
+pm2 delete store-astro
+pm2 start npx --name "store-astro" -- astro preview --host 0.0.0.0 --port 4321
+pm2 save
+cd ~/Neotropical-specimens
+nano astro.config.mjs
+nano server.mjs
+nano ecosystem.config.cjs
+npm run build
+pm2 delete store-astro
+pm2 start ecosystem.config.cjs
+pm2 save
+cd ~/Neotropical-specimens
+nano astro.config.mjs
+import { defineConfig } from 'astro/config';
+import node from '@astrojs/node';
+export default defineConfig({
+  output: 'server',
+  adapter: node({
+    mode: 'standalone'
+  }),
+});
+nano package.json
+rm -f server.mjs
+npm run build
+cd ~/Neotropical-specimens
+nano package.json
+npm run build
+pm2 delete store-astro
+pm2 start ecosystem.config.cjs
+pm2 save
+cd ~/Neotropical-specimens
+nano ecosystem.config.cjs
+pm2 delete store-astro
+pm2 start ecosystem.config.cjs
+pm2 save
+clear
+cd ~/Neotropical-specimens
+nano astro.config.mjs
+nano package.json
+nano ecosystem.config.cjs
+npm run build
+pm2 delete store-astro
+pm2 start ecosystem.config.cjs
+pm2 save
+cd ~/Neotropical-specimens
+nano src/pages/sitemap.xml.ts
+npm run build
+pm2 delete store-astro
+pm2 start ecosystem.config.cjs
+pm2 save
+cd ~/Neotropical-specimens
 git status
-cd "Neotropical specimens"
+git checkout .
+git clean -fd
 git status
 clear
-cd /root/Neotropical-specimens
-git status
-clear
-cd /root/Neotropical-specimens
-ls -la
-cd /root
-mv Neotropical neotropical-specimens
-cd neotropical-specimens
-ls -la
-# Verificamos el estado actual del repositorio aquí dentro
-git status
-git rm --cached celestial-conjunction
-rm -rf celestial-conjunction
-git status
-git commit -m "Eliminar directorio sobrante celestial-conjunction y dejar repositorio limpio"
-ls -la
-cd /root
-ls -la
-cd /root/catalogo-oficial
-ls -la
-clear
-# Copiamos todo el contenido por seguridad a la carpeta oficial
-cp -r /root/catalogo-oficial/. /root/neotropical-specimens/
-# Entramos a la carpeta oficial
-cd /root/neotropical-specimens
-# Eliminamos la carpeta sobrante 'catalogo-oficial' y la antigua 'Neotropical' si quedara rastro
-rm -rf /root/catalogo-oficial /root/Neotropical
-# Verificamos el contenido final de nuestra única carpeta de trabajo
-ls -la
-git add .
-git commit -m "Actualización y diseño aprobado: [breve descripción]"
-git push origin master
-git remote -v
-git remote remove origin 2>/dev/null
-git remote add origin https://github.com/cholon23/neotropical-specimens.git
-git push -u origin master
-# 1. Verificar el estado de los archivos modificados
-git status
-# 2. Agregar todos los cambios de tu plantilla actual
-git add .
-# 3. Guardar el respaldo con un mensaje descriptivo
-git commit -m "Plantilla web camaleonica e iridiscente lista con footer profesional"
-# 4. Enviar los cambios a tu repositorio en GitHub
-git push origin main
-# 1. Agregar todos los cambios recientes de tu plantilla
-git add .
-# 2. Guardar el respaldo con un mensaje claro
-git commit -m "Respaldo completo de la plantilla web y footer profesional"
-# 3. Enviar los cambios a tu repositorio en GitHub
-git push origin master
+cd ~/Neotropical-specimens
+git checkout .
+git clean -fd
+# 1. Detener y eliminar cualquier proceso fantasma en PM2 o Node
+pm2 delete all
+# 2. Eliminar por completo el repositorio git actual y limpiar todo rastro local
+rm -rf .git
+# 3. Borrar todas las carpetas y archivos basura del directorio (node_modules, dist, .astro, etc.)
+rm -rf node_modules dist .astro src package-lock.json astro.config.mjs
+# 4. Inicializar un repositorio Git totalmente nuevo y limpio
+git init
+nano package.json
+nano astro.config.mjs
+npm install
+npm install
+mkdir -p src/data
+nano src/data/specimens.ts
+nano astro.config.mjs
+mkdir -p src/data src/pages/api
+nano src/data/specimens.ts
+nano src/pages/api/specimens.json.ts
+# 1. Compilar la aplicación SSR para producción/standalone
+npm run build
+# 2. Iniciar el servidor con PM2 para mantenerlo activo en segundo plano de forma autónoma
+pm2 start node --name "neotropical-specimens" -- ./dist/server/entry.mjs
+# 3. Verificar el estado del proceso en el terminal
+pm2 status
+curl http://localhost:4321/api/specimens.json
+nano src/data/specimens.ts
+npm run build
+pm2 restart neotropical-specimens
+curl http://localhost:4321/api/specimens.json
+nano src/pages/api/specimens.json.ts
+npm run build
+pm2 restart neotropical-specimens
+curl "http://localhost:4321/api/specimens.json?category=entomology&mode=b2b"
+nano src/data/specimens.ts
+nano src/pages/api/specimens.json.ts
+npm run build
+pm2 restart neotropical-specimens
+curl http://localhost:4321/api/specimens.json
+nano src/data/paymentGateway.ts
+nano src/pages/api/specimens.json.ts
+npm run build
+pm2 restart neotropical-specimens
+curl "http://localhost:4321/api/specimens.json?mode=retail&currency=USD"
+nano src/pages/sitemap.xml.ts
+npm run build
+pm2 restart neotropical-specimens
+curl http://localhost:4321/sitemap.xml
+nano src/pages/specimens/[id].astro
+nano src/middleware.ts
+npm run build
+pm2 restart neotropical-specimens
+curl -I http://localhost:4321/specimens/morpho-peleides-01
+curl -I http://localhost:4321/specimens/morpho-peleides-01
+nano src/pages/specimens/[id].astro
+mkdir -p src/pages/specimens
+nano src/pages/specimens/[id].astro
+nano src/pages/index.astro
+nano src/pages/specimens/[id].astro
+nano src/middleware.ts
+npm run build
+pm2 restart neotropical-specimens
+curl http://localhost:4321/specimens/morpho-peleides-01
+nano src/pages/checkout.astro
+npm run build
+pm2 restart neotropical-specimens
+curl http://localhost:4321/checkout
+nano src/pages/checkout.astro
+npm run build
+pm2 restart neotropical-specimens
+curl http://localhost:4321/checkout
+nano src/pages/checkout.astro
+npm run build
+pm2 restart neotropical-specimens
+nano src/pages/checkout.astro
+npm run build
+pm2 restart neotropical-specimens

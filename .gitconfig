@@ -1,3 +1,5 @@
 [user]
 	email = tu_correo_de_github@example.com
 	name = cholon23
+[credential]
+	helper = store

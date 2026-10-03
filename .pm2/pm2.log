@@ -411,3 +411,555 @@
 2026-10-01T01:57:31: PM2 log: App [store-astro:0] exited with code [0] via signal [SIGKILL]
 2026-10-01T01:57:31: PM2 log: App [store-astro:0] starting in -fork mode-
 2026-10-01T01:57:31: PM2 log: App [store-astro:0] online
+2026-10-01T17:47:08: PM2 log: Stopping app:store-astro id:0
+2026-10-01T17:47:08: PM2 log: App [store-astro:0] exited with code [0] via signal [SIGINT]
+2026-10-01T17:47:08: PM2 log: pid=539256 msg=process tree killed (1 pids)
+2026-10-01T17:47:08: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-01T17:47:08: PM2 log: App [store-astro:0] online
+2026-10-01T17:47:08: PM2 error: Error: spawn node ENOENT
+    at ChildProcess._handle.onexit (node:internal/child_process:285:19)
+    at onErrorNT (node:internal/child_process:483:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+2026-10-01T17:47:08: PM2 error: Error caught while calling pidusage
+2026-10-01T17:47:08: PM2 error: TypeError: One of the pids provided is invalid
+2026-10-01T17:47:18: PM2 error: Error caught while calling pidusage
+2026-10-01T17:47:18: PM2 error: TypeError: One of the pids provided is invalid
+2026-10-01T17:47:18: PM2 log: Stopping app:store-astro id:0
+2026-10-01T17:47:18: PM2 error: app=store-astro id=0 does not have a pid
+2026-10-01T17:49:34: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-01T17:49:34: PM2 log: App [store-astro:0] online
+2026-10-01T17:49:34: PM2 log: App [store-astro:0] exited with code [1] via signal [SIGINT]
+2026-10-01T17:49:34: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-01T17:49:34: PM2 log: App [store-astro:0] online
+2026-10-01T17:49:34: PM2 log: App [store-astro:0] exited with code [1] via signal [SIGINT]
+2026-10-01T17:49:34: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-01T17:49:34: PM2 log: App [store-astro:0] online
+2026-10-01T17:49:35: PM2 log: App [store-astro:0] exited with code [1] via signal [SIGINT]
+2026-10-01T17:49:35: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-01T17:49:35: PM2 log: App [store-astro:0] online
+2026-10-01T17:49:35: PM2 log: App [store-astro:0] exited with code [1] via signal [SIGINT]
+2026-10-01T17:49:35: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-01T17:49:35: PM2 log: App [store-astro:0] online
+2026-10-01T17:49:35: PM2 log: App [store-astro:0] exited with code [1] via signal [SIGINT]
+2026-10-01T17:49:35: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-01T17:49:35: PM2 log: App [store-astro:0] online
+2026-10-01T17:49:35: PM2 log: App [store-astro:0] exited with code [1] via signal [SIGINT]
+2026-10-01T17:49:35: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-01T17:49:35: PM2 log: App [store-astro:0] online
+2026-10-01T17:49:36: PM2 log: App [store-astro:0] exited with code [1] via signal [SIGINT]
+2026-10-01T17:49:36: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-01T17:49:36: PM2 log: App [store-astro:0] online
+2026-10-01T17:49:36: PM2 log: App [store-astro:0] exited with code [1] via signal [SIGINT]
+2026-10-01T17:49:36: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-01T17:49:36: PM2 log: App [store-astro:0] online
+2026-10-01T17:49:36: PM2 log: App [store-astro:0] exited with code [1] via signal [SIGINT]
+2026-10-01T17:49:36: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-01T17:49:36: PM2 log: App [store-astro:0] online
+2026-10-01T17:49:36: PM2 log: App [store-astro:0] exited with code [1] via signal [SIGINT]
+2026-10-01T17:49:36: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-01T17:49:36: PM2 log: App [store-astro:0] online
+2026-10-01T17:49:37: PM2 log: App [store-astro:0] exited with code [1] via signal [SIGINT]
+2026-10-01T17:49:37: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-01T17:49:37: PM2 log: App [store-astro:0] online
+2026-10-01T17:49:37: PM2 log: App [store-astro:0] exited with code [1] via signal [SIGINT]
+2026-10-01T17:49:37: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-01T17:49:37: PM2 log: App [store-astro:0] online
+2026-10-01T17:49:37: PM2 log: App [store-astro:0] exited with code [1] via signal [SIGINT]
+2026-10-01T17:49:37: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-01T17:49:37: PM2 log: App [store-astro:0] online
+2026-10-01T17:49:37: PM2 log: App [store-astro:0] exited with code [1] via signal [SIGINT]
+2026-10-01T17:49:37: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-01T17:49:37: PM2 log: App [store-astro:0] online
+2026-10-01T17:49:38: PM2 log: App [store-astro:0] exited with code [1] via signal [SIGINT]
+2026-10-01T17:49:38: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-01T17:49:38: PM2 log: App [store-astro:0] online
+2026-10-01T17:49:38: PM2 log: App [store-astro:0] exited with code [1] via signal [SIGINT]
+2026-10-01T17:49:38: PM2 log: Script /usr/bin/npm had too many unstable restarts (16). Stopped. "errored"
+2026-10-01T17:57:13: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-01T17:57:13: PM2 log: App [store-astro:0] online
+2026-10-01T17:57:14: PM2 log: App [store-astro:0] exited with code [1] via signal [SIGINT]
+2026-10-01T17:57:14: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-01T17:57:14: PM2 log: App [store-astro:0] online
+2026-10-01T17:57:14: PM2 log: App [store-astro:0] exited with code [1] via signal [SIGINT]
+2026-10-01T17:57:14: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-01T17:57:14: PM2 log: App [store-astro:0] online
+2026-10-01T17:57:14: PM2 log: App [store-astro:0] exited with code [1] via signal [SIGINT]
+2026-10-01T17:57:14: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-01T17:57:14: PM2 log: App [store-astro:0] online
+2026-10-01T17:57:15: PM2 log: App [store-astro:0] exited with code [1] via signal [SIGINT]
+2026-10-01T17:57:15: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-01T17:57:15: PM2 log: App [store-astro:0] online
+2026-10-01T17:57:15: PM2 log: App [store-astro:0] exited with code [1] via signal [SIGINT]
+2026-10-01T17:57:15: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-01T17:57:15: PM2 log: App [store-astro:0] online
+2026-10-01T17:57:15: PM2 log: App [store-astro:0] exited with code [1] via signal [SIGINT]
+2026-10-01T17:57:15: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-01T17:57:15: PM2 log: App [store-astro:0] online
+2026-10-01T17:57:15: PM2 log: App [store-astro:0] exited with code [1] via signal [SIGINT]
+2026-10-01T17:57:15: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-01T17:57:15: PM2 log: App [store-astro:0] online
+2026-10-01T17:57:16: PM2 log: App [store-astro:0] exited with code [1] via signal [SIGINT]
+2026-10-01T17:57:16: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-01T17:57:16: PM2 log: App [store-astro:0] online
+2026-10-01T17:57:16: PM2 log: App [store-astro:0] exited with code [1] via signal [SIGINT]
+2026-10-01T17:57:16: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-01T17:57:16: PM2 log: App [store-astro:0] online
+2026-10-01T17:57:16: PM2 log: App [store-astro:0] exited with code [1] via signal [SIGINT]
+2026-10-01T17:57:16: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-01T17:57:16: PM2 log: App [store-astro:0] online
+2026-10-01T17:57:17: PM2 log: App [store-astro:0] exited with code [1] via signal [SIGINT]
+2026-10-01T17:57:17: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-01T17:57:17: PM2 log: App [store-astro:0] online
+2026-10-01T17:57:17: PM2 log: App [store-astro:0] exited with code [1] via signal [SIGINT]
+2026-10-01T17:57:17: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-01T17:57:17: PM2 log: App [store-astro:0] online
+2026-10-01T17:57:17: PM2 log: App [store-astro:0] exited with code [1] via signal [SIGINT]
+2026-10-01T17:57:17: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-01T17:57:17: PM2 log: App [store-astro:0] online
+2026-10-01T17:57:17: PM2 log: App [store-astro:0] exited with code [1] via signal [SIGINT]
+2026-10-01T17:57:17: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-01T17:57:17: PM2 log: App [store-astro:0] online
+2026-10-01T17:57:18: PM2 log: App [store-astro:0] exited with code [1] via signal [SIGINT]
+2026-10-01T17:57:18: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-01T17:57:18: PM2 log: App [store-astro:0] online
+2026-10-01T17:57:18: PM2 log: App [store-astro:0] exited with code [1] via signal [SIGINT]
+2026-10-01T17:57:18: PM2 log: Script /usr/bin/npm had too many unstable restarts (16). Stopped. "errored"
+2026-10-02T08:35:12: PM2 log: Stopping app:store-astro id:0
+2026-10-02T08:35:12: PM2 error: app=store-astro id=0 does not have a pid
+2026-10-02T08:35:14: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-02T08:35:14: PM2 log: App [store-astro:0] online
+2026-10-02T08:35:14: PM2 log: App [store-astro:0] exited with code [1] via signal [SIGINT]
+2026-10-02T08:35:14: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-02T08:35:14: PM2 log: App [store-astro:0] online
+2026-10-02T08:35:14: PM2 log: App [store-astro:0] exited with code [1] via signal [SIGINT]
+2026-10-02T08:35:14: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-02T08:35:14: PM2 log: App [store-astro:0] online
+2026-10-02T08:35:15: PM2 log: App [store-astro:0] exited with code [1] via signal [SIGINT]
+2026-10-02T08:35:15: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-02T08:35:15: PM2 log: App [store-astro:0] online
+2026-10-02T08:35:15: PM2 log: App [store-astro:0] exited with code [1] via signal [SIGINT]
+2026-10-02T08:35:15: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-02T08:35:15: PM2 log: App [store-astro:0] online
+2026-10-02T08:35:16: PM2 log: App [store-astro:0] exited with code [1] via signal [SIGINT]
+2026-10-02T08:35:16: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-02T08:35:16: PM2 log: App [store-astro:0] online
+2026-10-02T08:35:16: PM2 log: App [store-astro:0] exited with code [1] via signal [SIGINT]
+2026-10-02T08:35:16: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-02T08:35:16: PM2 log: App [store-astro:0] online
+2026-10-02T08:35:16: PM2 log: App [store-astro:0] exited with code [1] via signal [SIGINT]
+2026-10-02T08:35:16: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-02T08:35:16: PM2 log: App [store-astro:0] online
+2026-10-02T08:35:17: PM2 log: App [store-astro:0] exited with code [1] via signal [SIGINT]
+2026-10-02T08:35:17: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-02T08:35:17: PM2 log: App [store-astro:0] online
+2026-10-02T08:35:17: PM2 log: App [store-astro:0] exited with code [1] via signal [SIGINT]
+2026-10-02T08:35:17: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-02T08:35:17: PM2 log: App [store-astro:0] online
+2026-10-02T08:35:17: PM2 log: App [store-astro:0] exited with code [1] via signal [SIGINT]
+2026-10-02T08:35:17: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-02T08:35:17: PM2 log: App [store-astro:0] online
+2026-10-02T08:35:18: PM2 log: App [store-astro:0] exited with code [1] via signal [SIGINT]
+2026-10-02T08:35:18: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-02T08:35:18: PM2 log: App [store-astro:0] online
+2026-10-02T08:35:18: PM2 log: App [store-astro:0] exited with code [1] via signal [SIGINT]
+2026-10-02T08:35:18: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-02T08:35:18: PM2 log: App [store-astro:0] online
+2026-10-02T08:35:18: PM2 log: App [store-astro:0] exited with code [1] via signal [SIGINT]
+2026-10-02T08:35:18: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-02T08:35:18: PM2 log: App [store-astro:0] online
+2026-10-02T08:35:19: PM2 log: App [store-astro:0] exited with code [1] via signal [SIGINT]
+2026-10-02T08:35:19: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-02T08:35:19: PM2 log: App [store-astro:0] online
+2026-10-02T08:35:19: PM2 log: App [store-astro:0] exited with code [1] via signal [SIGINT]
+2026-10-02T08:35:19: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-02T08:35:19: PM2 log: App [store-astro:0] online
+2026-10-02T08:35:19: PM2 log: App [store-astro:0] exited with code [1] via signal [SIGINT]
+2026-10-02T08:35:19: PM2 log: Script /usr/bin/npm had too many unstable restarts (16). Stopped. "errored"
+2026-10-02T08:35:51: PM2 log: Stopping app:store-astro id:0
+2026-10-02T08:35:51: PM2 error: app=store-astro id=0 does not have a pid
+2026-10-02T08:35:51: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-02T08:35:51: PM2 log: App [store-astro:0] online
+2026-10-02T08:35:52: PM2 log: App [store-astro:0] exited with code [1] via signal [SIGINT]
+2026-10-02T08:35:52: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-02T08:35:52: PM2 log: App [store-astro:0] online
+2026-10-02T08:35:52: PM2 log: App [store-astro:0] exited with code [1] via signal [SIGINT]
+2026-10-02T08:35:52: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-02T08:35:52: PM2 log: App [store-astro:0] online
+2026-10-02T08:35:52: PM2 log: App [store-astro:0] exited with code [1] via signal [SIGINT]
+2026-10-02T08:35:52: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-02T08:35:52: PM2 log: App [store-astro:0] online
+2026-10-02T08:35:53: PM2 log: App [store-astro:0] exited with code [1] via signal [SIGINT]
+2026-10-02T08:35:53: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-02T08:35:53: PM2 log: App [store-astro:0] online
+2026-10-02T08:35:53: PM2 log: App [store-astro:0] exited with code [1] via signal [SIGINT]
+2026-10-02T08:35:53: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-02T08:35:53: PM2 log: App [store-astro:0] online
+2026-10-02T08:35:53: PM2 log: App [store-astro:0] exited with code [1] via signal [SIGINT]
+2026-10-02T08:35:53: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-02T08:35:53: PM2 log: App [store-astro:0] online
+2026-10-02T08:35:54: PM2 log: App [store-astro:0] exited with code [1] via signal [SIGINT]
+2026-10-02T08:35:54: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-02T08:35:54: PM2 log: App [store-astro:0] online
+2026-10-02T08:35:54: PM2 log: App [store-astro:0] exited with code [1] via signal [SIGINT]
+2026-10-02T08:35:54: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-02T08:35:54: PM2 log: App [store-astro:0] online
+2026-10-02T08:35:55: PM2 log: App [store-astro:0] exited with code [1] via signal [SIGINT]
+2026-10-02T08:35:55: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-02T08:35:55: PM2 log: App [store-astro:0] online
+2026-10-02T08:35:55: PM2 log: App [store-astro:0] exited with code [1] via signal [SIGINT]
+2026-10-02T08:35:55: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-02T08:35:55: PM2 log: App [store-astro:0] online
+2026-10-02T08:35:55: PM2 log: App [store-astro:0] exited with code [1] via signal [SIGINT]
+2026-10-02T08:35:55: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-02T08:35:55: PM2 log: App [store-astro:0] online
+2026-10-02T08:35:56: PM2 log: App [store-astro:0] exited with code [1] via signal [SIGINT]
+2026-10-02T08:35:56: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-02T08:35:56: PM2 log: App [store-astro:0] online
+2026-10-02T08:35:56: PM2 log: App [store-astro:0] exited with code [1] via signal [SIGINT]
+2026-10-02T08:35:56: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-02T08:35:56: PM2 log: App [store-astro:0] online
+2026-10-02T08:35:56: PM2 log: App [store-astro:0] exited with code [1] via signal [SIGINT]
+2026-10-02T08:35:56: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-02T08:35:56: PM2 log: App [store-astro:0] online
+2026-10-02T08:35:57: PM2 log: App [store-astro:0] exited with code [1] via signal [SIGINT]
+2026-10-02T08:35:57: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-02T08:35:57: PM2 log: App [store-astro:0] online
+2026-10-02T08:35:57: PM2 log: App [store-astro:0] exited with code [1] via signal [SIGINT]
+2026-10-02T08:35:57: PM2 log: Script /usr/bin/npm had too many unstable restarts (16). Stopped. "errored"
+2026-10-02T08:38:44: PM2 log: Stopping app:store-astro id:0
+2026-10-02T08:38:44: PM2 error: app=store-astro id=0 does not have a pid
+2026-10-02T08:38:44: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-02T08:38:44: PM2 log: App [store-astro:0] online
+2026-10-02T09:36:15: PM2 log: App [store-astro:0] exited with code [137] via signal [SIGINT]
+2026-10-02T09:36:15: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-02T09:36:15: PM2 log: App [store-astro:0] online
+2026-10-02T09:49:48: PM2 log: App [backend-hertz:1] starting in -fork mode-
+2026-10-02T09:49:48: PM2 log: App [backend-hertz:1] online
+2026-10-02T13:13:53: PM2 log: Stopping app:store-astro id:0
+2026-10-02T13:13:53: PM2 log: App [store-astro:0] exited with code [0] via signal [SIGINT]
+2026-10-02T13:13:53: PM2 log: pid=593805 msg=process tree killed (4 pids)
+2026-10-02T13:13:53: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-02T13:13:53: PM2 log: App [store-astro:0] online
+2026-10-02T13:13:53: PM2 log: Stopping app:backend-hertz id:1
+2026-10-02T13:13:53: PM2 log: App [backend-hertz:1] exited with code [0] via signal [SIGINT]
+2026-10-02T13:13:53: PM2 log: pid=594880 msg=process tree killed (1 pids)
+2026-10-02T13:13:53: PM2 log: App [backend-hertz:1] starting in -fork mode-
+2026-10-02T13:13:53: PM2 log: App [backend-hertz:1] online
+2026-10-03T01:12:47: PM2 log: App [backend-hertz:1] exited with code [0] via signal [SIGKILL]
+2026-10-03T01:12:47: PM2 log: App [backend-hertz:1] starting in -fork mode-
+2026-10-03T01:12:47: PM2 log: App [backend-hertz:1] online
+2026-10-03T01:12:47: PM2 log: App [store-astro:0] exited with code [137] via signal [SIGINT]
+2026-10-03T01:12:47: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-03T01:12:47: PM2 log: App [store-astro:0] online
+2026-10-03T02:51:45: PM2 log: Stopping app:store-astro id:0
+2026-10-03T02:51:45: PM2 log: App [store-astro:0] exited with code [0] via signal [SIGINT]
+2026-10-03T02:51:45: PM2 log: pid=628233 msg=process tree killed (3 pids)
+2026-10-03T02:51:45: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-03T02:51:45: PM2 log: App [store-astro:0] online
+2026-10-03T02:51:45: PM2 log: Stopping app:backend-hertz id:1
+2026-10-03T02:51:46: PM2 log: App [backend-hertz:1] exited with code [0] via signal [SIGINT]
+2026-10-03T02:51:46: PM2 log: pid=628221 msg=process tree killed (1 pids)
+2026-10-03T02:51:46: PM2 log: App [backend-hertz:1] starting in -fork mode-
+2026-10-03T02:51:46: PM2 log: App [backend-hertz:1] online
+2026-10-03T02:52:07: PM2 log: Stopping app:store-astro id:0
+2026-10-03T02:52:07: PM2 log: App [store-astro:0] exited with code [0] via signal [SIGINT]
+2026-10-03T02:52:07: PM2 log: pid=631987 msg=process tree killed (4 pids)
+2026-10-03T02:52:07: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-03T02:52:07: PM2 log: App [store-astro:0] online
+2026-10-03T02:52:07: PM2 log: Stopping app:backend-hertz id:1
+2026-10-03T02:52:07: PM2 log: App [backend-hertz:1] exited with code [0] via signal [SIGINT]
+2026-10-03T02:52:08: PM2 log: pid=632000 msg=process tree killed (1 pids)
+2026-10-03T02:52:08: PM2 log: App [backend-hertz:1] starting in -fork mode-
+2026-10-03T02:52:08: PM2 log: App [backend-hertz:1] online
+2026-10-03T03:03:24: PM2 log: Stopping app:store-astro id:0
+2026-10-03T03:03:24: PM2 log: App [store-astro:0] exited with code [0] via signal [SIGINT]
+2026-10-03T03:03:24: PM2 log: pid=632114 msg=process tree killed (4 pids)
+2026-10-03T03:03:24: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-03T03:03:24: PM2 log: App [store-astro:0] online
+2026-10-03T03:03:24: PM2 log: Stopping app:backend-hertz id:1
+2026-10-03T03:03:24: PM2 log: App [backend-hertz:1] exited with code [0] via signal [SIGINT]
+2026-10-03T03:03:24: PM2 log: pid=632127 msg=process tree killed (1 pids)
+2026-10-03T03:03:24: PM2 log: App [backend-hertz:1] starting in -fork mode-
+2026-10-03T03:03:24: PM2 log: App [backend-hertz:1] online
+2026-10-03T03:08:03: PM2 log: Stopping app:store-astro id:0
+2026-10-03T03:08:03: PM2 log: Stopping app:backend-hertz id:1
+2026-10-03T03:08:04: PM2 log: App [backend-hertz:1] exited with code [0] via signal [SIGINT]
+2026-10-03T03:08:04: PM2 log: App [store-astro:0] exited with code [0] via signal [SIGINT]
+2026-10-03T03:08:04: PM2 log: pid=632496 msg=process tree killed (4 pids)
+2026-10-03T03:08:04: PM2 log: pid=632509 msg=process tree killed (1 pids)
+2026-10-03T03:08:04: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-03T03:08:04: PM2 log: App [store-astro:0] online
+2026-10-03T03:14:00: PM2 log: Stopping app:store-astro id:0
+2026-10-03T03:14:00: PM2 log: App [store-astro:0] exited with code [0] via signal [SIGINT]
+2026-10-03T03:14:00: PM2 log: pid=632657 msg=process tree killed (4 pids)
+2026-10-03T03:14:00: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-03T03:14:00: PM2 log: App [store-astro:0] online
+2026-10-03T10:36:29: PM2 log: Stopping app:store-astro id:0
+2026-10-03T10:36:29: PM2 log: App [store-astro:0] exited with code [0] via signal [SIGINT]
+2026-10-03T10:36:29: PM2 log: pid=632913 msg=process tree killed (4 pids)
+2026-10-03T10:36:29: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-03T10:36:29: PM2 log: App [store-astro:0] online
+2026-10-03T10:39:22: PM2 log: Stopping app:store-astro id:0
+2026-10-03T10:39:22: PM2 log: App [store-astro:0] exited with code [0] via signal [SIGINT]
+2026-10-03T10:39:22: PM2 log: pid=642544 msg=process tree killed (3 pids)
+2026-10-03T10:39:23: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-03T10:39:23: PM2 log: App [store-astro:0] online
+2026-10-03T10:41:08: PM2 log: Stopping app:store-astro id:0
+2026-10-03T10:41:08: PM2 log: App [store-astro:0] exited with code [0] via signal [SIGINT]
+2026-10-03T10:41:08: PM2 log: pid=642722 msg=process tree killed (4 pids)
+2026-10-03T10:41:08: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-03T10:41:08: PM2 log: App [store-astro:0] online
+2026-10-03T10:50:59: PM2 log: Stopping app:store-astro id:0
+2026-10-03T10:50:59: PM2 log: App [store-astro:0] exited with code [0] via signal [SIGINT]
+2026-10-03T10:50:59: PM2 log: pid=642831 msg=process tree killed (4 pids)
+2026-10-03T10:50:59: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-03T10:50:59: PM2 log: App [store-astro:0] online
+2026-10-03T11:10:10: PM2 log: Stopping app:store-astro id:0
+2026-10-03T11:10:10: PM2 log: App [store-astro:0] exited with code [0] via signal [SIGINT]
+2026-10-03T11:10:10: PM2 log: pid=643252 msg=process tree killed (4 pids)
+2026-10-03T11:10:10: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-03T11:10:10: PM2 log: App [store-astro:0] online
+2026-10-03T11:13:47: PM2 log: Stopping app:store-astro id:0
+2026-10-03T11:13:47: PM2 log: App [store-astro:0] exited with code [0] via signal [SIGINT]
+2026-10-03T11:13:47: PM2 log: pid=643713 msg=process tree killed (4 pids)
+2026-10-03T11:13:47: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-03T11:13:47: PM2 log: App [store-astro:0] online
+2026-10-03T11:21:08: PM2 log: Stopping app:store-astro id:0
+2026-10-03T11:21:08: PM2 log: App [store-astro:0] exited with code [0] via signal [SIGINT]
+2026-10-03T11:21:08: PM2 log: pid=643985 msg=process tree killed (4 pids)
+2026-10-03T11:21:08: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-03T11:21:08: PM2 log: App [store-astro:0] online
+2026-10-03T11:38:27: PM2 log: Stopping app:store-astro id:0
+2026-10-03T11:38:27: PM2 log: App [store-astro:0] exited with code [0] via signal [SIGINT]
+2026-10-03T11:38:27: PM2 log: pid=644209 msg=process tree killed (4 pids)
+2026-10-03T11:38:27: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-03T11:38:27: PM2 log: App [store-astro:0] online
+2026-10-03T11:57:46: PM2 log: Stopping app:store-astro id:0
+2026-10-03T11:57:46: PM2 log: App [store-astro:0] exited with code [0] via signal [SIGINT]
+2026-10-03T11:57:46: PM2 log: pid=644596 msg=process tree killed (4 pids)
+2026-10-03T11:57:46: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-03T11:57:46: PM2 log: App [store-astro:0] online
+2026-10-03T12:00:16: PM2 log: Stopping app:store-astro id:0
+2026-10-03T12:00:17: PM2 log: App [store-astro:0] exited with code [0] via signal [SIGINT]
+2026-10-03T12:00:17: PM2 log: pid=645042 msg=process tree killed (4 pids)
+2026-10-03T12:00:17: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-03T12:00:17: PM2 log: App [store-astro:0] online
+2026-10-03T12:03:49: PM2 log: Stopping app:store-astro id:0
+2026-10-03T12:03:49: PM2 log: App [store-astro:0] exited with code [0] via signal [SIGINT]
+2026-10-03T12:03:49: PM2 log: pid=645205 msg=process tree killed (4 pids)
+2026-10-03T12:03:49: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-03T12:03:49: PM2 log: App [store-astro:0] online
+2026-10-03T12:21:40: PM2 log: Stopping app:store-astro id:0
+2026-10-03T12:21:40: PM2 log: App [store-astro:0] exited with code [0] via signal [SIGINT]
+2026-10-03T12:21:40: PM2 log: pid=645363 msg=process tree killed (4 pids)
+2026-10-03T12:21:40: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-03T12:21:40: PM2 log: App [store-astro:0] online
+2026-10-03T12:29:49: PM2 log: Stopping app:store-astro id:0
+2026-10-03T12:29:50: PM2 log: App [store-astro:0] exited with code [0] via signal [SIGINT]
+2026-10-03T12:29:50: PM2 log: pid=645844 msg=process tree killed (4 pids)
+2026-10-03T12:29:50: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-03T12:29:50: PM2 log: App [store-astro:0] online
+2026-10-03T12:37:43: PM2 log: Stopping app:store-astro id:0
+2026-10-03T12:37:43: PM2 log: App [store-astro:0] exited with code [0] via signal [SIGINT]
+2026-10-03T12:37:43: PM2 log: pid=646087 msg=process tree killed (4 pids)
+2026-10-03T12:37:43: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-03T12:37:43: PM2 log: App [store-astro:0] online
+2026-10-03T12:40:58: PM2 log: Stopping app:store-astro id:0
+2026-10-03T12:40:58: PM2 log: App [store-astro:0] exited with code [0] via signal [SIGINT]
+2026-10-03T12:40:58: PM2 log: pid=646364 msg=process tree killed (4 pids)
+2026-10-03T12:40:58: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-03T12:40:58: PM2 log: App [store-astro:0] online
+2026-10-03T12:42:59: PM2 log: Stopping app:store-astro id:0
+2026-10-03T12:42:59: PM2 log: App [store-astro:0] exited with code [0] via signal [SIGINT]
+2026-10-03T12:42:59: PM2 log: pid=646580 msg=process tree killed (4 pids)
+2026-10-03T12:42:59: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-03T12:42:59: PM2 log: App [store-astro:0] online
+2026-10-03T12:46:21: PM2 log: Stopping app:store-astro id:0
+2026-10-03T12:46:21: PM2 log: App [store-astro:0] exited with code [0] via signal [SIGINT]
+2026-10-03T12:46:21: PM2 log: pid=646728 msg=process tree killed (4 pids)
+2026-10-03T12:46:21: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-03T12:46:21: PM2 log: App [store-astro:0] online
+2026-10-03T12:53:09: PM2 log: Stopping app:store-astro id:0
+2026-10-03T12:53:10: PM2 log: App [store-astro:0] exited with code [0] via signal [SIGINT]
+2026-10-03T12:53:10: PM2 log: pid=646887 msg=process tree killed (4 pids)
+2026-10-03T12:53:10: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-03T12:53:10: PM2 log: App [store-astro:0] online
+2026-10-03T12:57:10: PM2 log: Stopping app:store-astro id:0
+2026-10-03T12:57:10: PM2 log: App [store-astro:0] exited with code [0] via signal [SIGINT]
+2026-10-03T12:57:10: PM2 log: pid=647123 msg=process tree killed (4 pids)
+2026-10-03T12:57:10: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-03T12:57:10: PM2 log: App [store-astro:0] online
+2026-10-03T13:02:38: PM2 log: Stopping app:store-astro id:0
+2026-10-03T13:02:38: PM2 log: App [store-astro:0] exited with code [0] via signal [SIGINT]
+2026-10-03T13:02:38: PM2 log: pid=647307 msg=process tree killed (4 pids)
+2026-10-03T13:02:38: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-03T13:02:38: PM2 log: App [store-astro:0] online
+2026-10-03T13:14:04: PM2 log: Stopping app:store-astro id:0
+2026-10-03T13:14:05: PM2 log: App [store-astro:0] exited with code [0] via signal [SIGINT]
+2026-10-03T13:14:05: PM2 log: pid=647494 msg=process tree killed (4 pids)
+2026-10-03T13:14:05: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-03T13:14:05: PM2 log: App [store-astro:0] online
+2026-10-03T13:16:57: PM2 log: Stopping app:store-astro id:0
+2026-10-03T13:16:57: PM2 log: App [store-astro:0] exited with code [0] via signal [SIGINT]
+2026-10-03T13:16:57: PM2 log: pid=648022 msg=process tree killed (1 pids)
+2026-10-03T13:16:57: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-03T13:16:57: PM2 log: App [store-astro:0] online
+2026-10-03T13:32:58: PM2 log: Stopping app:store-astro id:0
+2026-10-03T13:32:58: PM2 log: App [store-astro:0] exited with code [0] via signal [SIGINT]
+2026-10-03T13:32:58: PM2 log: pid=648134 msg=process tree killed (1 pids)
+2026-10-03T13:32:58: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-03T13:32:58: PM2 log: App [store-astro:0] online
+2026-10-03T13:49:18: PM2 log: Stopping app:store-astro id:0
+2026-10-03T13:49:18: PM2 log: App [store-astro:0] exited with code [0] via signal [SIGINT]
+2026-10-03T13:49:18: PM2 log: pid=648662 msg=process tree killed (1 pids)
+2026-10-03T13:49:18: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-03T13:49:19: PM2 log: App [store-astro:0] online
+2026-10-03T13:52:24: PM2 log: Stopping app:store-astro id:0
+2026-10-03T13:52:24: PM2 log: App [store-astro:0] exited with code [0] via signal [SIGINT]
+2026-10-03T13:52:24: PM2 log: pid=649093 msg=process tree killed (1 pids)
+2026-10-03T13:52:24: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-03T13:52:24: PM2 log: App [store-astro:0] online
+2026-10-03T14:11:33: PM2 log: Stopping app:store-astro id:0
+2026-10-03T14:11:33: PM2 log: App [store-astro:0] exited with code [0] via signal [SIGINT]
+2026-10-03T14:11:33: PM2 log: pid=649236 msg=process tree killed (1 pids)
+2026-10-03T14:11:34: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-03T14:11:34: PM2 log: App [store-astro:0] online
+2026-10-03T14:13:02: PM2 log: Stopping app:store-astro id:0
+2026-10-03T14:13:03: PM2 log: App [store-astro:0] exited with code [0] via signal [SIGINT]
+2026-10-03T14:13:03: PM2 log: pid=649661 msg=process tree killed (1 pids)
+2026-10-03T14:13:03: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-03T14:13:03: PM2 log: App [store-astro:0] online
+2026-10-03T14:23:15: PM2 log: Stopping app:store-astro id:0
+2026-10-03T14:23:15: PM2 log: App [store-astro:0] exited with code [0] via signal [SIGINT]
+2026-10-03T14:23:15: PM2 log: pid=649783 msg=process tree killed (1 pids)
+2026-10-03T14:23:16: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-03T14:23:16: PM2 log: App [store-astro:0] online
+2026-10-03T14:30:21: PM2 log: Stopping app:store-astro id:0
+2026-10-03T14:30:21: PM2 log: App [store-astro:0] exited with code [0] via signal [SIGINT]
+2026-10-03T14:30:21: PM2 log: pid=650084 msg=process tree killed (3 pids)
+2026-10-03T14:30:21: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-03T14:30:21: PM2 log: App [store-astro:0] online
+2026-10-03T14:37:38: PM2 log: Stopping app:store-astro id:0
+2026-10-03T14:37:38: PM2 log: App [store-astro:0] exited with code [0] via signal [SIGINT]
+2026-10-03T14:37:38: PM2 log: pid=650312 msg=process tree killed (3 pids)
+2026-10-03T14:37:38: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-03T14:37:38: PM2 log: App [store-astro:0] online
+2026-10-03T14:58:54: PM2 log: Stopping app:store-astro id:0
+2026-10-03T14:58:54: PM2 log: App [store-astro:0] exited with code [0] via signal [SIGINT]
+2026-10-03T14:58:54: PM2 log: pid=650555 msg=process tree killed (3 pids)
+2026-10-03T14:58:55: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-03T14:58:55: PM2 log: App [store-astro:0] online
+2026-10-03T15:02:56: PM2 log: Stopping app:store-astro id:0
+2026-10-03T15:02:56: PM2 log: App [store-astro:0] exited with code [0] via signal [SIGINT]
+2026-10-03T15:02:56: PM2 log: pid=651116 msg=process tree killed (3 pids)
+2026-10-03T15:02:56: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-03T15:02:56: PM2 log: App [store-astro:0] online
+2026-10-03T15:27:38: PM2 log: Stopping app:store-astro id:0
+2026-10-03T15:27:38: PM2 log: App [store-astro:0] exited with code [0] via signal [SIGINT]
+2026-10-03T15:27:38: PM2 log: pid=651288 msg=process tree killed (3 pids)
+2026-10-03T15:27:38: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-03T15:27:38: PM2 log: App [store-astro:0] online
+2026-10-03T15:37:04: PM2 log: Stopping app:store-astro id:0
+2026-10-03T15:37:04: PM2 log: App [store-astro:0] exited with code [0] via signal [SIGINT]
+2026-10-03T15:37:04: PM2 log: pid=651846 msg=process tree killed (3 pids)
+2026-10-03T15:37:04: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-03T15:37:04: PM2 log: App [store-astro:0] online
+2026-10-03T15:44:24: PM2 log: Stopping app:store-astro id:0
+2026-10-03T15:44:24: PM2 log: App [store-astro:0] exited with code [0] via signal [SIGINT]
+2026-10-03T15:44:24: PM2 log: pid=652144 msg=process tree killed (3 pids)
+2026-10-03T15:44:24: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-03T15:44:24: PM2 log: App [store-astro:0] online
+2026-10-03T15:56:31: PM2 log: Stopping app:store-astro id:0
+2026-10-03T15:56:31: PM2 log: App [store-astro:0] exited with code [0] via signal [SIGINT]
+2026-10-03T15:56:32: PM2 log: pid=652414 msg=process tree killed (3 pids)
+2026-10-03T15:56:32: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-03T15:56:32: PM2 log: App [store-astro:0] online
+2026-10-03T16:11:48: PM2 log: Stopping app:store-astro id:0
+2026-10-03T16:11:48: PM2 log: App [store-astro:0] exited with code [0] via signal [SIGINT]
+2026-10-03T16:11:48: PM2 log: pid=652688 msg=process tree killed (3 pids)
+2026-10-03T16:11:49: PM2 log: App [store-astro:0] starting in -fork mode-
+2026-10-03T16:11:49: PM2 log: App [store-astro:0] online
+2026-10-03T16:21:15: PM2 log: Stopping app:store-astro id:0
+2026-10-03T16:21:15: PM2 log: App [store-astro:0] exited with code [0] via signal [SIGINT]
+2026-10-03T16:21:15: PM2 log: pid=653033 msg=process tree killed (3 pids)
+2026-10-03T16:21:16: PM2 log: App [store-astro:0] starting in -cluster mode-
+2026-10-03T16:21:16: PM2 log: App [store-astro:0] online
+2026-10-03T16:30:03: PM2 log: Stopping app:store-astro id:0
+2026-10-03T16:30:03: PM2 log: App name:store-astro id:0 disconnected
+2026-10-03T16:30:03: PM2 log: App [store-astro:0] exited with code [0] via signal [SIGINT]
+2026-10-03T16:30:03: PM2 log: pid=653287 msg=process tree killed (1 pids)
+2026-10-03T16:31:14: PM2 log: App [store-astro:0] starting in -cluster mode-
+2026-10-03T16:31:14: PM2 log: App [store-astro:0] online
+2026-10-03T16:45:21: PM2 log: Stopping app:store-astro id:0
+2026-10-03T16:45:21: PM2 log: App name:store-astro id:0 disconnected
+2026-10-03T16:45:21: PM2 log: App [store-astro:0] exited with code [0] via signal [SIGINT]
+2026-10-03T16:45:21: PM2 log: pid=653688 msg=process tree killed (1 pids)
+2026-10-03T16:45:21: PM2 log: App [store-astro:0] starting in -cluster mode-
+2026-10-03T16:45:21: PM2 log: App [store-astro:0] online
+2026-10-03T16:50:31: PM2 log: Stopping app:store-astro id:0
+2026-10-03T16:50:31: PM2 log: App name:store-astro id:0 disconnected
+2026-10-03T16:50:31: PM2 log: App [store-astro:0] exited with code [0] via signal [SIGINT]
+2026-10-03T16:50:31: PM2 log: pid=654082 msg=process tree killed (1 pids)
+2026-10-03T16:50:31: PM2 log: App [store-astro:0] starting in -cluster mode-
+2026-10-03T16:50:31: PM2 log: App [store-astro:0] online
+2026-10-03T17:27:41: PM2 log: Stopping app:store-astro id:0
+2026-10-03T17:27:41: PM2 log: App name:store-astro id:0 disconnected
+2026-10-03T17:27:41: PM2 log: App [store-astro:0] exited with code [0] via signal [SIGINT]
+2026-10-03T17:27:41: PM2 log: pid=654272 msg=process tree killed (1 pids)
+2026-10-03T17:40:06: PM2 log: App [neotropical-specimens:0] starting in -fork mode-
+2026-10-03T17:40:06: PM2 log: App [neotropical-specimens:0] online
+2026-10-03T17:43:45: PM2 log: Stopping app:neotropical-specimens id:0
+2026-10-03T17:43:45: PM2 log: App [neotropical-specimens:0] exited with code [0] via signal [SIGINT]
+2026-10-03T17:43:45: PM2 log: pid=655372 msg=process tree killed (1 pids)
+2026-10-03T17:43:45: PM2 log: App [neotropical-specimens:0] starting in -fork mode-
+2026-10-03T17:43:45: PM2 log: App [neotropical-specimens:0] online
+2026-10-03T17:45:29: PM2 log: Stopping app:neotropical-specimens id:0
+2026-10-03T17:45:29: PM2 log: App [neotropical-specimens:0] exited with code [0] via signal [SIGINT]
+2026-10-03T17:45:29: PM2 log: pid=655547 msg=process tree killed (1 pids)
+2026-10-03T17:45:29: PM2 log: App [neotropical-specimens:0] starting in -fork mode-
+2026-10-03T17:45:29: PM2 log: App [neotropical-specimens:0] online
+2026-10-03T17:50:15: PM2 log: Stopping app:neotropical-specimens id:0
+2026-10-03T17:50:15: PM2 log: App [neotropical-specimens:0] exited with code [0] via signal [SIGINT]
+2026-10-03T17:50:15: PM2 log: pid=655663 msg=process tree killed (1 pids)
+2026-10-03T17:50:15: PM2 log: App [neotropical-specimens:0] starting in -fork mode-
+2026-10-03T17:50:16: PM2 log: App [neotropical-specimens:0] online
+2026-10-03T17:57:39: PM2 log: Stopping app:neotropical-specimens id:0
+2026-10-03T17:57:39: PM2 log: App [neotropical-specimens:0] exited with code [0] via signal [SIGINT]
+2026-10-03T17:57:39: PM2 log: pid=655827 msg=process tree killed (1 pids)
+2026-10-03T17:57:39: PM2 log: App [neotropical-specimens:0] starting in -fork mode-
+2026-10-03T17:57:39: PM2 log: App [neotropical-specimens:0] online
+2026-10-03T18:07:02: PM2 log: Stopping app:neotropical-specimens id:0
+2026-10-03T18:07:02: PM2 log: App [neotropical-specimens:0] exited with code [0] via signal [SIGINT]
+2026-10-03T18:07:02: PM2 log: pid=656026 msg=process tree killed (1 pids)
+2026-10-03T18:07:02: PM2 log: App [neotropical-specimens:0] starting in -fork mode-
+2026-10-03T18:07:02: PM2 log: App [neotropical-specimens:0] online
+2026-10-03T18:11:31: PM2 log: Stopping app:neotropical-specimens id:0
+2026-10-03T18:11:31: PM2 log: App [neotropical-specimens:0] exited with code [0] via signal [SIGINT]
+2026-10-03T18:11:31: PM2 log: pid=656245 msg=process tree killed (1 pids)
+2026-10-03T18:11:31: PM2 log: App [neotropical-specimens:0] starting in -fork mode-
+2026-10-03T18:11:31: PM2 log: App [neotropical-specimens:0] online
+2026-10-03T18:19:07: PM2 log: Stopping app:neotropical-specimens id:0
+2026-10-03T18:19:07: PM2 log: App [neotropical-specimens:0] exited with code [0] via signal [SIGINT]
+2026-10-03T18:19:07: PM2 log: pid=656471 msg=process tree killed (1 pids)
+2026-10-03T18:19:07: PM2 log: App [neotropical-specimens:0] starting in -fork mode-
+2026-10-03T18:19:07: PM2 log: App [neotropical-specimens:0] online
+2026-10-03T18:26:39: PM2 log: Stopping app:neotropical-specimens id:0
+2026-10-03T18:26:39: PM2 log: App [neotropical-specimens:0] exited with code [0] via signal [SIGINT]
+2026-10-03T18:26:39: PM2 log: pid=656723 msg=process tree killed (1 pids)
+2026-10-03T18:26:39: PM2 log: App [neotropical-specimens:0] starting in -fork mode-
+2026-10-03T18:26:39: PM2 log: App [neotropical-specimens:0] online
+2026-10-03T18:29:12: PM2 log: Stopping app:neotropical-specimens id:0
+2026-10-03T18:29:12: PM2 log: App [neotropical-specimens:0] exited with code [0] via signal [SIGINT]
+2026-10-03T18:29:12: PM2 log: pid=656922 msg=process tree killed (1 pids)
+2026-10-03T18:29:12: PM2 log: App [neotropical-specimens:0] starting in -fork mode-
+2026-10-03T18:29:12: PM2 log: App [neotropical-specimens:0] online
+2026-10-03T18:40:21: PM2 log: Stopping app:neotropical-specimens id:0
+2026-10-03T18:40:21: PM2 log: App [neotropical-specimens:0] exited with code [0] via signal [SIGINT]
+2026-10-03T18:40:21: PM2 log: pid=657044 msg=process tree killed (1 pids)
+2026-10-03T18:40:21: PM2 log: App [neotropical-specimens:0] starting in -fork mode-
+2026-10-03T18:40:21: PM2 log: App [neotropical-specimens:0] online
+2026-10-03T18:44:10: PM2 log: Stopping app:neotropical-specimens id:0
+2026-10-03T18:44:10: PM2 log: App [neotropical-specimens:0] exited with code [0] via signal [SIGINT]
+2026-10-03T18:44:10: PM2 log: pid=657339 msg=process tree killed (1 pids)
+2026-10-03T18:44:10: PM2 log: App [neotropical-specimens:0] starting in -fork mode-
+2026-10-03T18:44:10: PM2 log: App [neotropical-specimens:0] online
